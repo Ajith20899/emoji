@@ -1,0 +1,24 @@
+{
+	"component": {
+		"1F3FB": {
+			"unified": "1F3FB",
+			"imagePosition": ["17.67", "86.00"]
+		},
+		"1F3FC": {
+			"unified": "1F3FC",
+			"imagePosition": ["17.67", "87.67"]
+		},
+		"1F3FD": {
+			"unified": "1F3FD",
+			"imagePosition": ["17.67", "89.33"]
+		},
+		"1F3FE": {
+			"unified": "1F3FE",
+			"imagePosition": ["17.67", "91.00"]
+		},
+		"1F3FF": {
+			"unified": "1F3FF",
+			"imagePosition": ["17.67", "92.67"]
+		}
+	}
+}

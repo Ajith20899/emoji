@@ -1,0 +1,1 @@
+tag replace = .replace(/(@[^ ]+)/g, '<span>$1</span>')

@@ -1,0 +1,1400 @@
+{
+	"peopleAndBody": {
+		"1F385": {
+			"unified": "1F385",
+			"imagePosition": ["12.67", "26.00"]
+		},
+		"1F3C2": {
+			"unified": "1F3C2",
+			"imagePosition": ["14.33", "27.67"]
+		},
+		"1F3C3-200D-2640-FE0F": {
+			"unified": "1F3C3-200D-2640-FE0F",
+			"imagePosition": ["14.33", "37.67"]
+		},
+		"1F3C3-200D-2642-FE0F": {
+			"unified": "1F3C3-200D-2642-FE0F",
+			"imagePosition": ["14.33", "47.67"]
+		},
+		"1F3C3": {
+			"unified": "1F3C3",
+			"imagePosition": ["14.33", "57.67"]
+		},
+		"1F3C4-200D-2640-FE0F": {
+			"unified": "1F3C4-200D-2640-FE0F",
+			"imagePosition": ["14.33", "67.67"]
+		},
+		"1F3C4-200D-2642-FE0F": {
+			"unified": "1F3C4-200D-2642-FE0F",
+			"imagePosition": ["14.33", "77.67"]
+		},
+		"1F3C4": {
+			"unified": "1F3C4",
+			"imagePosition": ["14.33", "87.67"]
+		},
+		"1F3C7": {
+			"unified": "1F3C7",
+			"imagePosition": ["16.00", "1.00"]
+		},
+		"1F3CA-200D-2640-FE0F": {
+			"unified": "1F3CA-200D-2640-FE0F",
+			"imagePosition": ["16.00", "14.33"]
+		},
+		"1F3CA-200D-2642-FE0F": {
+			"unified": "1F3CA-200D-2642-FE0F",
+			"imagePosition": ["16.00", "24.33"]
+		},
+		"1F3CA": {
+			"unified": "1F3CA",
+			"imagePosition": ["16.00", "34.33"]
+		},
+		"1F3CB-FE0F-200D-2640-FE0F": {
+			"unified": "1F3CB-FE0F-200D-2640-FE0F",
+			"imagePosition": ["16.00", "44.33"]
+		},
+		"1F3CB-FE0F-200D-2642-FE0F": {
+			"unified": "1F3CB-FE0F-200D-2642-FE0F",
+			"imagePosition": ["16.00", "54.33"]
+		},
+		"1F3CB-FE0F": {
+			"unified": "1F3CB-FE0F",
+			"imagePosition": ["16.00", "64.33"]
+		},
+		"1F3CC-FE0F-200D-2640-FE0F": {
+			"unified": "1F3CC-FE0F-200D-2640-FE0F",
+			"imagePosition": ["16.00", "74.33"]
+		},
+		"1F3CC-FE0F-200D-2642-FE0F": {
+			"unified": "1F3CC-FE0F-200D-2642-FE0F",
+			"imagePosition": ["16.00", "84.33"]
+		},
+		"1F3CC-FE0F": {
+			"unified": "1F3CC-FE0F",
+			"imagePosition": ["16.00", "94.33"]
+		},
+		"1F440": {
+			"unified": "1F440",
+			"imagePosition": ["21.00", "6.00"]
+		},
+		"1F441-FE0F": {
+			"unified": "1F441-FE0F",
+			"imagePosition": ["21.00", "9.33"]
+		},
+		"1F442": {
+			"unified": "1F442",
+			"imagePosition": ["21.00", "11.00"]
+		},
+		"1F443": {
+			"unified": "1F443",
+			"imagePosition": ["21.00", "21.00"]
+		},
+		"1F444": {
+			"unified": "1F444",
+			"imagePosition": ["21.00", "31.00"]
+		},
+		"1F445": {
+			"unified": "1F445",
+			"imagePosition": ["21.00", "32.67"]
+		},
+		"1F446": {
+			"unified": "1F446",
+			"imagePosition": ["21.00", "34.33"]
+		},
+		"1F447": {
+			"unified": "1F447",
+			"imagePosition": ["21.00", "44.33"]
+		},
+		"1F448": {
+			"unified": "1F448",
+			"imagePosition": ["21.00", "54.33"]
+		},
+		"1F449": {
+			"unified": "1F449",
+			"imagePosition": ["21.00", "64.33"]
+		},
+		"1F44A": {
+			"unified": "1F44A",
+			"imagePosition": ["21.00", "74.33"]
+		},
+		"1F44B": {
+			"unified": "1F44B",
+			"imagePosition": ["21.00", "84.33"]
+		},
+		"1F44C": {
+			"unified": "1F44C",
+			"imagePosition": ["21.00", "94.33"]
+		},
+		"1F44D": {
+			"unified": "1F44D",
+			"imagePosition": ["22.67", "4.33"]
+		},
+		"1F44E": {
+			"unified": "1F44E",
+			"imagePosition": ["22.67", "14.33"]
+		},
+		"1F44F": {
+			"unified": "1F44F",
+			"imagePosition": ["22.67", "24.33"]
+		},
+		"1F450": {
+			"unified": "1F450",
+			"imagePosition": ["22.67", "34.33"]
+		},
+		"1F463": {
+			"unified": "1F463",
+			"imagePosition": ["22.67", "74.33"]
+		},
+		"1F464": {
+			"unified": "1F464",
+			"imagePosition": ["22.67", "76.00"]
+		},
+		"1F465": {
+			"unified": "1F465",
+			"imagePosition": ["22.67", "77.67"]
+		},
+		"1F466": {
+			"unified": "1F466",
+			"imagePosition": ["22.67", "79.33"]
+		},
+		"1F467": {
+			"unified": "1F467",
+			"imagePosition": ["22.67", "89.33"]
+		},
+		"1F468-200D-1F33E": {
+			"unified": "1F468-200D-1F33E",
+			"imagePosition": ["22.67", "99.33"]
+		},
+		"1F468-200D-1F373": {
+			"unified": "1F468-200D-1F373",
+			"imagePosition": ["24.33", "9.33"]
+		},
+		"1F468-200D-1F37C": {
+			"unified": "1F468-200D-1F37C",
+			"imagePosition": ["24.33", "19.33"]
+		},
+		"1F468-200D-1F393": {
+			"unified": "1F468-200D-1F393",
+			"imagePosition": ["24.33", "29.33"]
+		},
+		"1F468-200D-1F3A4": {
+			"unified": "1F468-200D-1F3A4",
+			"imagePosition": ["24.33", "39.33"]
+		},
+		"1F468-200D-1F3A8": {
+			"unified": "1F468-200D-1F3A8",
+			"imagePosition": ["24.33", "49.33"]
+		},
+		"1F468-200D-1F3EB": {
+			"unified": "1F468-200D-1F3EB",
+			"imagePosition": ["24.33", "59.33"]
+		},
+		"1F468-200D-1F3ED": {
+			"unified": "1F468-200D-1F3ED",
+			"imagePosition": ["24.33", "69.33"]
+		},
+		"1F468-200D-1F466-200D-1F466": {
+			"unified": "1F468-200D-1F466-200D-1F466",
+			"imagePosition": ["24.33", "79.33"]
+		},
+		"1F468-200D-1F466": {
+			"unified": "1F468-200D-1F466",
+			"imagePosition": ["24.33", "81.00"]
+		},
+		"1F468-200D-1F467-200D-1F466": {
+			"unified": "1F468-200D-1F467-200D-1F466",
+			"imagePosition": ["24.33", "82.67"]
+		},
+		"1F468-200D-1F467-200D-1F467": {
+			"unified": "1F468-200D-1F467-200D-1F467",
+			"imagePosition": ["24.33", "84.33"]
+		},
+		"1F468-200D-1F467": {
+			"unified": "1F468-200D-1F467",
+			"imagePosition": ["24.33", "86.00"]
+		},
+		"1F468-200D-1F468-200D-1F466": {
+			"unified": "1F468-200D-1F468-200D-1F466",
+			"imagePosition": ["24.33", "87.67"]
+		},
+		"1F468-200D-1F468-200D-1F466-200D-1F466": {
+			"unified": "1F468-200D-1F468-200D-1F466-200D-1F466",
+			"imagePosition": ["24.33", "89.33"]
+		},
+		"1F468-200D-1F468-200D-1F467": {
+			"unified": "1F468-200D-1F468-200D-1F467",
+			"imagePosition": ["24.33", "91.00"]
+		},
+		"1F468-200D-1F468-200D-1F467-200D-1F466": {
+			"unified": "1F468-200D-1F468-200D-1F467-200D-1F466",
+			"imagePosition": ["24.33", "92.67"]
+		},
+		"1F468-200D-1F468-200D-1F467-200D-1F467": {
+			"unified": "1F468-200D-1F468-200D-1F467-200D-1F467",
+			"imagePosition": ["24.33", "94.33"]
+		},
+		"1F468-200D-1F469-200D-1F466": {
+			"unified": "1F468-200D-1F469-200D-1F466",
+			"imagePosition": ["24.33", "96.00"]
+		},
+		"1F468-200D-1F469-200D-1F466-200D-1F466": {
+			"unified": "1F468-200D-1F469-200D-1F466-200D-1F466",
+			"imagePosition": ["24.33", "97.67"]
+		},
+		"1F468-200D-1F469-200D-1F467": {
+			"unified": "1F468-200D-1F469-200D-1F467",
+			"imagePosition": ["24.33", "99.33"]
+		},
+		"1F468-200D-1F469-200D-1F467-200D-1F466": {
+			"unified": "1F468-200D-1F469-200D-1F467-200D-1F466",
+			"imagePosition": ["26.00", "1.00"]
+		},
+		"1F468-200D-1F469-200D-1F467-200D-1F467": {
+			"unified": "1F468-200D-1F469-200D-1F467-200D-1F467",
+			"imagePosition": ["26.00", "2.67"]
+		},
+		"1F468-200D-1F4BB": {
+			"unified": "1F468-200D-1F4BB",
+			"imagePosition": ["26.00", "4.33"]
+		},
+		"1F468-200D-1F4BC": {
+			"unified": "1F468-200D-1F4BC",
+			"imagePosition": ["26.00", "14.33"]
+		},
+		"1F468-200D-1F527": {
+			"unified": "1F468-200D-1F527",
+			"imagePosition": ["26.00", "24.33"]
+		},
+		"1F468-200D-1F52C": {
+			"unified": "1F468-200D-1F52C",
+			"imagePosition": ["26.00", "34.33"]
+		},
+		"1F468-200D-1F680": {
+			"unified": "1F468-200D-1F680",
+			"imagePosition": ["26.00", "44.33"]
+		},
+		"1F468-200D-1F692": {
+			"unified": "1F468-200D-1F692",
+			"imagePosition": ["26.00", "54.33"]
+		},
+		"1F468-200D-1F9AF": {
+			"unified": "1F468-200D-1F9AF",
+			"imagePosition": ["26.00", "64.33"]
+		},
+		"1F468-200D-1F9B0": {
+			"unified": "1F468-200D-1F9B0",
+			"imagePosition": ["26.00", "74.33"]
+		},
+		"1F468-200D-1F9B1": {
+			"unified": "1F468-200D-1F9B1",
+			"imagePosition": ["26.00", "84.33"]
+		},
+		"1F468-200D-1F9B2": {
+			"unified": "1F468-200D-1F9B2",
+			"imagePosition": ["26.00", "94.33"]
+		},
+		"1F468-200D-1F9B3": {
+			"unified": "1F468-200D-1F9B3",
+			"imagePosition": ["27.67", "4.33"]
+		},
+		"1F468-200D-1F9BC": {
+			"unified": "1F468-200D-1F9BC",
+			"imagePosition": ["27.67", "14.33"]
+		},
+		"1F468-200D-1F9BD": {
+			"unified": "1F468-200D-1F9BD",
+			"imagePosition": ["27.67", "24.33"]
+		},
+		"1F468-200D-2695-FE0F": {
+			"unified": "1F468-200D-2695-FE0F",
+			"imagePosition": ["27.67", "34.33"]
+		},
+		"1F468-200D-2696-FE0F": {
+			"unified": "1F468-200D-2696-FE0F",
+			"imagePosition": ["27.67", "44.33"]
+		},
+		"1F468-200D-2708-FE0F": {
+			"unified": "1F468-200D-2708-FE0F",
+			"imagePosition": ["27.67", "54.33"]
+		},
+		"1F468-200D-2764-FE0F-200D-1F468": {
+			"unified": "1F468-200D-2764-FE0F-200D-1F468",
+			"imagePosition": ["27.67", "64.33"]
+		},
+		"1F468-200D-2764-FE0F-200D-1F48B-200D-1F468": {
+			"unified": "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
+			"imagePosition": ["29.33", "7.67"]
+		},
+		"1F468": {
+			"unified": "1F468",
+			"imagePosition": ["29.33", "51.00"]
+		},
+		"1F469-200D-1F33E": {
+			"unified": "1F469-200D-1F33E",
+			"imagePosition": ["29.33", "61.00"]
+		},
+		"1F469-200D-1F373": {
+			"unified": "1F469-200D-1F373",
+			"imagePosition": ["29.33", "71.00"]
+		},
+		"1F469-200D-1F37C": {
+			"unified": "1F469-200D-1F37C",
+			"imagePosition": ["29.33", "81.00"]
+		},
+		"1F469-200D-1F393": {
+			"unified": "1F469-200D-1F393",
+			"imagePosition": ["29.33", "91.00"]
+		},
+		"1F469-200D-1F3A4": {
+			"unified": "1F469-200D-1F3A4",
+			"imagePosition": ["31.00", "1.00"]
+		},
+		"1F469-200D-1F3A8": {
+			"unified": "1F469-200D-1F3A8",
+			"imagePosition": ["31.00", "11.00"]
+		},
+		"1F469-200D-1F3EB": {
+			"unified": "1F469-200D-1F3EB",
+			"imagePosition": ["31.00", "21.00"]
+		},
+		"1F469-200D-1F3ED": {
+			"unified": "1F469-200D-1F3ED",
+			"imagePosition": ["31.00", "31.00"]
+		},
+		"1F469-200D-1F466-200D-1F466": {
+			"unified": "1F469-200D-1F466-200D-1F466",
+			"imagePosition": ["31.00", "41.00"]
+		},
+		"1F469-200D-1F466": {
+			"unified": "1F469-200D-1F466",
+			"imagePosition": ["31.00", "42.67"]
+		},
+		"1F469-200D-1F467-200D-1F466": {
+			"unified": "1F469-200D-1F467-200D-1F466",
+			"imagePosition": ["31.00", "44.33"]
+		},
+		"1F469-200D-1F467-200D-1F467": {
+			"unified": "1F469-200D-1F467-200D-1F467",
+			"imagePosition": ["31.00", "46.00"]
+		},
+		"1F469-200D-1F467": {
+			"unified": "1F469-200D-1F467",
+			"imagePosition": ["31.00", "47.67"]
+		},
+		"1F469-200D-1F469-200D-1F466": {
+			"unified": "1F469-200D-1F469-200D-1F466",
+			"imagePosition": ["31.00", "49.33"]
+		},
+		"1F469-200D-1F469-200D-1F466-200D-1F466": {
+			"unified": "1F469-200D-1F469-200D-1F466-200D-1F466",
+			"imagePosition": ["31.00", "51.00"]
+		},
+		"1F469-200D-1F469-200D-1F467": {
+			"unified": "1F469-200D-1F469-200D-1F467",
+			"imagePosition": ["31.00", "52.67"]
+		},
+		"1F469-200D-1F469-200D-1F467-200D-1F466": {
+			"unified": "1F469-200D-1F469-200D-1F467-200D-1F466",
+			"imagePosition": ["31.00", "54.33"]
+		},
+		"1F469-200D-1F469-200D-1F467-200D-1F467": {
+			"unified": "1F469-200D-1F469-200D-1F467-200D-1F467",
+			"imagePosition": ["31.00", "56.00"]
+		},
+		"1F469-200D-1F4BB": {
+			"unified": "1F469-200D-1F4BB",
+			"imagePosition": ["31.00", "57.67"]
+		},
+		"1F469-200D-1F4BC": {
+			"unified": "1F469-200D-1F4BC",
+			"imagePosition": ["31.00", "67.67"]
+		},
+		"1F469-200D-1F527": {
+			"unified": "1F469-200D-1F527",
+			"imagePosition": ["31.00", "77.67"]
+		},
+		"1F469-200D-1F52C": {
+			"unified": "1F469-200D-1F52C",
+			"imagePosition": ["31.00", "87.67"]
+		},
+		"1F469-200D-1F680": {
+			"unified": "1F469-200D-1F680",
+			"imagePosition": ["31.00", "97.67"]
+		},
+		"1F469-200D-1F692": {
+			"unified": "1F469-200D-1F692",
+			"imagePosition": ["32.67", "7.67"]
+		},
+		"1F469-200D-1F9AF": {
+			"unified": "1F469-200D-1F9AF",
+			"imagePosition": ["32.67", "17.67"]
+		},
+		"1F469-200D-1F9B0": {
+			"unified": "1F469-200D-1F9B0",
+			"imagePosition": ["32.67", "27.67"]
+		},
+		"1F469-200D-1F9B1": {
+			"unified": "1F469-200D-1F9B1",
+			"imagePosition": ["32.67", "37.67"]
+		},
+		"1F469-200D-1F9B2": {
+			"unified": "1F469-200D-1F9B2",
+			"imagePosition": ["32.67", "47.67"]
+		},
+		"1F469-200D-1F9B3": {
+			"unified": "1F469-200D-1F9B3",
+			"imagePosition": ["32.67", "57.67"]
+		},
+		"1F469-200D-1F9BC": {
+			"unified": "1F469-200D-1F9BC",
+			"imagePosition": ["32.67", "67.67"]
+		},
+		"1F469-200D-1F9BD": {
+			"unified": "1F469-200D-1F9BD",
+			"imagePosition": ["32.67", "77.67"]
+		},
+		"1F469-200D-2695-FE0F": {
+			"unified": "1F469-200D-2695-FE0F",
+			"imagePosition": ["32.67", "87.67"]
+		},
+		"1F469-200D-2696-FE0F": {
+			"unified": "1F469-200D-2696-FE0F",
+			"imagePosition": ["32.67", "97.67"]
+		},
+		"1F469-200D-2708-FE0F": {
+			"unified": "1F469-200D-2708-FE0F",
+			"imagePosition": ["34.33", "7.67"]
+		},
+		"1F469-200D-2764-FE0F-200D-1F468": {
+			"unified": "1F469-200D-2764-FE0F-200D-1F468",
+			"imagePosition": ["34.33", "17.67"]
+		},
+		"1F469-200D-2764-FE0F-200D-1F469": {
+			"unified": "1F469-200D-2764-FE0F-200D-1F469",
+			"imagePosition": ["34.33", "61.00"]
+		},
+		"1F469-200D-2764-FE0F-200D-1F48B-200D-1F468": {
+			"unified": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468",
+			"imagePosition": ["36.00", "4.33"]
+		},
+		"1F469-200D-2764-FE0F-200D-1F48B-200D-1F469": {
+			"unified": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
+			"imagePosition": ["36.00", "47.67"]
+		},
+		"1F469": {
+			"unified": "1F469",
+			"imagePosition": ["36.00", "91.00"]
+		},
+		"1F46A": {
+			"unified": "1F46A",
+			"imagePosition": ["37.67", "1.00"]
+		},
+		"1F46B": {
+			"unified": "1F46B",
+			"imagePosition": ["37.67", "2.67"]
+		},
+		"1F46C": {
+			"unified": "1F46C",
+			"imagePosition": ["37.67", "46.00"]
+		},
+		"1F46D": {
+			"unified": "1F46D",
+			"imagePosition": ["37.67", "89.33"]
+		},
+		"1F46E-200D-2640-FE0F": {
+			"unified": "1F46E-200D-2640-FE0F",
+			"imagePosition": ["39.33", "32.67"]
+		},
+		"1F46E-200D-2642-FE0F": {
+			"unified": "1F46E-200D-2642-FE0F",
+			"imagePosition": ["39.33", "42.67"]
+		},
+		"1F46E": {
+			"unified": "1F46E",
+			"imagePosition": ["39.33", "52.67"]
+		},
+		"1F46F-200D-2640-FE0F": {
+			"unified": "1F46F-200D-2640-FE0F",
+			"imagePosition": ["39.33", "62.67"]
+		},
+		"1F46F-200D-2642-FE0F": {
+			"unified": "1F46F-200D-2642-FE0F",
+			"imagePosition": ["39.33", "64.33"]
+		},
+		"1F46F": {
+			"unified": "1F46F",
+			"imagePosition": ["39.33", "66.00"]
+		},
+		"1F470-200D-2640-FE0F": {
+			"unified": "1F470-200D-2640-FE0F",
+			"imagePosition": ["39.33", "67.67"]
+		},
+		"1F470-200D-2642-FE0F": {
+			"unified": "1F470-200D-2642-FE0F",
+			"imagePosition": ["39.33", "77.67"]
+		},
+		"1F470": {
+			"unified": "1F470",
+			"imagePosition": ["39.33", "87.67"]
+		},
+		"1F471-200D-2640-FE0F": {
+			"unified": "1F471-200D-2640-FE0F",
+			"imagePosition": ["39.33", "97.67"]
+		},
+		"1F471-200D-2642-FE0F": {
+			"unified": "1F471-200D-2642-FE0F",
+			"imagePosition": ["41.00", "7.67"]
+		},
+		"1F471": {
+			"unified": "1F471",
+			"imagePosition": ["41.00", "17.67"]
+		},
+		"1F472": {
+			"unified": "1F472",
+			"imagePosition": ["41.00", "27.67"]
+		},
+		"1F473-200D-2640-FE0F": {
+			"unified": "1F473-200D-2640-FE0F",
+			"imagePosition": ["41.00", "37.67"]
+		},
+		"1F473-200D-2642-FE0F": {
+			"unified": "1F473-200D-2642-FE0F",
+			"imagePosition": ["41.00", "47.67"]
+		},
+		"1F473": {
+			"unified": "1F473",
+			"imagePosition": ["41.00", "57.67"]
+		},
+		"1F474": {
+			"unified": "1F474",
+			"imagePosition": ["41.00", "67.67"]
+		},
+		"1F475": {
+			"unified": "1F475",
+			"imagePosition": ["41.00", "77.67"]
+		},
+		"1F476": {
+			"unified": "1F476",
+			"imagePosition": ["41.00", "87.67"]
+		},
+		"1F477-200D-2640-FE0F": {
+			"unified": "1F477-200D-2640-FE0F",
+			"imagePosition": ["41.00", "97.67"]
+		},
+		"1F477-200D-2642-FE0F": {
+			"unified": "1F477-200D-2642-FE0F",
+			"imagePosition": ["42.67", "7.67"]
+		},
+		"1F477": {
+			"unified": "1F477",
+			"imagePosition": ["42.67", "17.67"]
+		},
+		"1F478": {
+			"unified": "1F478",
+			"imagePosition": ["42.67", "27.67"]
+		},
+		"1F47C": {
+			"unified": "1F47C",
+			"imagePosition": ["42.67", "42.67"]
+		},
+		"1F481-200D-2640-FE0F": {
+			"unified": "1F481-200D-2640-FE0F",
+			"imagePosition": ["42.67", "59.33"]
+		},
+		"1F481-200D-2642-FE0F": {
+			"unified": "1F481-200D-2642-FE0F",
+			"imagePosition": ["42.67", "69.33"]
+		},
+		"1F481": {
+			"unified": "1F481",
+			"imagePosition": ["42.67", "79.33"]
+		},
+		"1F482-200D-2640-FE0F": {
+			"unified": "1F482-200D-2640-FE0F",
+			"imagePosition": ["42.67", "89.33"]
+		},
+		"1F482-200D-2642-FE0F": {
+			"unified": "1F482-200D-2642-FE0F",
+			"imagePosition": ["42.67", "99.33"]
+		},
+		"1F482": {
+			"unified": "1F482",
+			"imagePosition": ["44.33", "9.33"]
+		},
+		"1F483": {
+			"unified": "1F483",
+			"imagePosition": ["44.33", "19.33"]
+		},
+		"1F485": {
+			"unified": "1F485",
+			"imagePosition": ["44.33", "31.00"]
+		},
+		"1F486-200D-2640-FE0F": {
+			"unified": "1F486-200D-2640-FE0F",
+			"imagePosition": ["44.33", "41.00"]
+		},
+		"1F486-200D-2642-FE0F": {
+			"unified": "1F486-200D-2642-FE0F",
+			"imagePosition": ["44.33", "51.00"]
+		},
+		"1F486": {
+			"unified": "1F486",
+			"imagePosition": ["44.33", "61.00"]
+		},
+		"1F487-200D-2640-FE0F": {
+			"unified": "1F487-200D-2640-FE0F",
+			"imagePosition": ["44.33", "71.00"]
+		},
+		"1F487-200D-2642-FE0F": {
+			"unified": "1F487-200D-2642-FE0F",
+			"imagePosition": ["44.33", "81.00"]
+		},
+		"1F487": {
+			"unified": "1F487",
+			"imagePosition": ["44.33", "91.00"]
+		},
+		"1F48F": {
+			"unified": "1F48F",
+			"imagePosition": ["46.00", "12.67"]
+		},
+		"1F491": {
+			"unified": "1F491",
+			"imagePosition": ["46.00", "57.67"]
+		},
+		"1F4AA": {
+			"unified": "1F4AA",
+			"imagePosition": ["47.67", "41.00"]
+		},
+		"1F574-FE0F": {
+			"unified": "1F574-FE0F",
+			"imagePosition": ["52.67", "49.33"]
+		},
+		"1F575-FE0F-200D-2640-FE0F": {
+			"unified": "1F575-FE0F-200D-2640-FE0F",
+			"imagePosition": ["52.67", "59.33"]
+		},
+		"1F575-FE0F-200D-2642-FE0F": {
+			"unified": "1F575-FE0F-200D-2642-FE0F",
+			"imagePosition": ["52.67", "69.33"]
+		},
+		"1F575-FE0F": {
+			"unified": "1F575-FE0F",
+			"imagePosition": ["52.67", "79.33"]
+		},
+		"1F57A": {
+			"unified": "1F57A",
+			"imagePosition": ["52.67", "96.00"]
+		},
+		"1F590-FE0F": {
+			"unified": "1F590-FE0F",
+			"imagePosition": ["54.33", "14.33"]
+		},
+		"1F595": {
+			"unified": "1F595",
+			"imagePosition": ["54.33", "24.33"]
+		},
+		"1F596": {
+			"unified": "1F596",
+			"imagePosition": ["54.33", "34.33"]
+		},
+		"1F5E3-FE0F": {
+			"unified": "1F5E3-FE0F",
+			"imagePosition": ["54.33", "71.00"]
+		},
+		"1F645-200D-2640-FE0F": {
+			"unified": "1F645-200D-2640-FE0F",
+			"imagePosition": ["57.67", "7.67"]
+		},
+		"1F645-200D-2642-FE0F": {
+			"unified": "1F645-200D-2642-FE0F",
+			"imagePosition": ["57.67", "17.67"]
+		},
+		"1F645": {
+			"unified": "1F645",
+			"imagePosition": ["57.67", "27.67"]
+		},
+		"1F646-200D-2640-FE0F": {
+			"unified": "1F646-200D-2640-FE0F",
+			"imagePosition": ["57.67", "37.67"]
+		},
+		"1F646-200D-2642-FE0F": {
+			"unified": "1F646-200D-2642-FE0F",
+			"imagePosition": ["57.67", "47.67"]
+		},
+		"1F646": {
+			"unified": "1F646",
+			"imagePosition": ["57.67", "57.67"]
+		},
+		"1F647-200D-2640-FE0F": {
+			"unified": "1F647-200D-2640-FE0F",
+			"imagePosition": ["57.67", "67.67"]
+		},
+		"1F647-200D-2642-FE0F": {
+			"unified": "1F647-200D-2642-FE0F",
+			"imagePosition": ["57.67", "77.67"]
+		},
+		"1F647": {
+			"unified": "1F647",
+			"imagePosition": ["57.67", "87.67"]
+		},
+		"1F64B-200D-2640-FE0F": {
+			"unified": "1F64B-200D-2640-FE0F",
+			"imagePosition": ["59.33", "2.67"]
+		},
+		"1F64B-200D-2642-FE0F": {
+			"unified": "1F64B-200D-2642-FE0F",
+			"imagePosition": ["59.33", "12.67"]
+		},
+		"1F64B": {
+			"unified": "1F64B",
+			"imagePosition": ["59.33", "22.67"]
+		},
+		"1F64C": {
+			"unified": "1F64C",
+			"imagePosition": ["59.33", "32.67"]
+		},
+		"1F64D-200D-2640-FE0F": {
+			"unified": "1F64D-200D-2640-FE0F",
+			"imagePosition": ["59.33", "42.67"]
+		},
+		"1F64D-200D-2642-FE0F": {
+			"unified": "1F64D-200D-2642-FE0F",
+			"imagePosition": ["59.33", "52.67"]
+		},
+		"1F64D": {
+			"unified": "1F64D",
+			"imagePosition": ["59.33", "62.67"]
+		},
+		"1F64E-200D-2640-FE0F": {
+			"unified": "1F64E-200D-2640-FE0F",
+			"imagePosition": ["59.33", "72.67"]
+		},
+		"1F64E-200D-2642-FE0F": {
+			"unified": "1F64E-200D-2642-FE0F",
+			"imagePosition": ["59.33", "82.67"]
+		},
+		"1F64E": {
+			"unified": "1F64E",
+			"imagePosition": ["59.33", "92.67"]
+		},
+		"1F64F": {
+			"unified": "1F64F",
+			"imagePosition": ["61.00", "2.67"]
+		},
+		"1F6A3-200D-2640-FE0F": {
+			"unified": "1F6A3-200D-2640-FE0F",
+			"imagePosition": ["61.00", "71.00"]
+		},
+		"1F6A3-200D-2642-FE0F": {
+			"unified": "1F6A3-200D-2642-FE0F",
+			"imagePosition": ["61.00", "81.00"]
+		},
+		"1F6A3": {
+			"unified": "1F6A3",
+			"imagePosition": ["61.00", "91.00"]
+		},
+		"1F6B4-200D-2640-FE0F": {
+			"unified": "1F6B4-200D-2640-FE0F",
+			"imagePosition": ["62.67", "27.67"]
+		},
+		"1F6B4-200D-2642-FE0F": {
+			"unified": "1F6B4-200D-2642-FE0F",
+			"imagePosition": ["62.67", "37.67"]
+		},
+		"1F6B4": {
+			"unified": "1F6B4",
+			"imagePosition": ["62.67", "47.67"]
+		},
+		"1F6B5-200D-2640-FE0F": {
+			"unified": "1F6B5-200D-2640-FE0F",
+			"imagePosition": ["62.67", "57.67"]
+		},
+		"1F6B5-200D-2642-FE0F": {
+			"unified": "1F6B5-200D-2642-FE0F",
+			"imagePosition": ["62.67", "67.67"]
+		},
+		"1F6B5": {
+			"unified": "1F6B5",
+			"imagePosition": ["62.67", "77.67"]
+		},
+		"1F6B6-200D-2640-FE0F": {
+			"unified": "1F6B6-200D-2640-FE0F",
+			"imagePosition": ["62.67", "87.67"]
+		},
+		"1F6B6-200D-2642-FE0F": {
+			"unified": "1F6B6-200D-2642-FE0F",
+			"imagePosition": ["62.67", "97.67"]
+		},
+		"1F6B6": {
+			"unified": "1F6B6",
+			"imagePosition": ["64.33", "7.67"]
+		},
+		"1F6C0": {
+			"unified": "1F6C0",
+			"imagePosition": ["64.33", "32.67"]
+		},
+		"1F6CC": {
+			"unified": "1F6CC",
+			"imagePosition": ["64.33", "52.67"]
+		},
+		"1F90C": {
+			"unified": "1F90C",
+			"imagePosition": ["66.00", "31.00"]
+		},
+		"1F90F": {
+			"unified": "1F90F",
+			"imagePosition": ["66.00", "44.33"]
+		},
+		"1F918": {
+			"unified": "1F918",
+			"imagePosition": ["66.00", "67.67"]
+		},
+		"1F919": {
+			"unified": "1F919",
+			"imagePosition": ["66.00", "77.67"]
+		},
+		"1F91A": {
+			"unified": "1F91A",
+			"imagePosition": ["66.00", "87.67"]
+		},
+		"1F91B": {
+			"unified": "1F91B",
+			"imagePosition": ["66.00", "97.67"]
+		},
+		"1F91C": {
+			"unified": "1F91C",
+			"imagePosition": ["67.67", "7.67"]
+		},
+		"1F91D": {
+			"unified": "1F91D",
+			"imagePosition": ["67.67", "17.67"]
+		},
+		"1F91E": {
+			"unified": "1F91E",
+			"imagePosition": ["67.67", "19.33"]
+		},
+		"1F91F": {
+			"unified": "1F91F",
+			"imagePosition": ["67.67", "29.33"]
+		},
+		"1F926-200D-2640-FE0F": {
+			"unified": "1F926-200D-2640-FE0F",
+			"imagePosition": ["67.67", "49.33"]
+		},
+		"1F926-200D-2642-FE0F": {
+			"unified": "1F926-200D-2642-FE0F",
+			"imagePosition": ["67.67", "59.33"]
+		},
+		"1F926": {
+			"unified": "1F926",
+			"imagePosition": ["67.67", "69.33"]
+		},
+		"1F930": {
+			"unified": "1F930",
+			"imagePosition": ["67.67", "94.33"]
+		},
+		"1F931": {
+			"unified": "1F931",
+			"imagePosition": ["69.33", "4.33"]
+		},
+		"1F932": {
+			"unified": "1F932",
+			"imagePosition": ["69.33", "14.33"]
+		},
+		"1F933": {
+			"unified": "1F933",
+			"imagePosition": ["69.33", "24.33"]
+		},
+		"1F934": {
+			"unified": "1F934",
+			"imagePosition": ["69.33", "34.33"]
+		},
+		"1F935-200D-2640-FE0F": {
+			"unified": "1F935-200D-2640-FE0F",
+			"imagePosition": ["69.33", "44.33"]
+		},
+		"1F935-200D-2642-FE0F": {
+			"unified": "1F935-200D-2642-FE0F",
+			"imagePosition": ["69.33", "54.33"]
+		},
+		"1F935": {
+			"unified": "1F935",
+			"imagePosition": ["69.33", "64.33"]
+		},
+		"1F936": {
+			"unified": "1F936",
+			"imagePosition": ["69.33", "74.33"]
+		},
+		"1F937-200D-2640-FE0F": {
+			"unified": "1F937-200D-2640-FE0F",
+			"imagePosition": ["69.33", "84.33"]
+		},
+		"1F937-200D-2642-FE0F": {
+			"unified": "1F937-200D-2642-FE0F",
+			"imagePosition": ["69.33", "94.33"]
+		},
+		"1F937": {
+			"unified": "1F937",
+			"imagePosition": ["71.00", "4.33"]
+		},
+		"1F938-200D-2640-FE0F": {
+			"unified": "1F938-200D-2640-FE0F",
+			"imagePosition": ["71.00", "14.33"]
+		},
+		"1F938-200D-2642-FE0F": {
+			"unified": "1F938-200D-2642-FE0F",
+			"imagePosition": ["71.00", "24.33"]
+		},
+		"1F938": {
+			"unified": "1F938",
+			"imagePosition": ["71.00", "34.33"]
+		},
+		"1F939-200D-2640-FE0F": {
+			"unified": "1F939-200D-2640-FE0F",
+			"imagePosition": ["71.00", "44.33"]
+		},
+		"1F939-200D-2642-FE0F": {
+			"unified": "1F939-200D-2642-FE0F",
+			"imagePosition": ["71.00", "54.33"]
+		},
+		"1F939": {
+			"unified": "1F939",
+			"imagePosition": ["71.00", "64.33"]
+		},
+		"1F93A": {
+			"unified": "1F93A",
+			"imagePosition": ["71.00", "74.33"]
+		},
+		"1F93C-200D-2640-FE0F": {
+			"unified": "1F93C-200D-2640-FE0F",
+			"imagePosition": ["71.00", "76.00"]
+		},
+		"1F93C-200D-2642-FE0F": {
+			"unified": "1F93C-200D-2642-FE0F",
+			"imagePosition": ["71.00", "77.67"]
+		},
+		"1F93C": {
+			"unified": "1F93C",
+			"imagePosition": ["71.00", "79.33"]
+		},
+		"1F93D-200D-2640-FE0F": {
+			"unified": "1F93D-200D-2640-FE0F",
+			"imagePosition": ["71.00", "81.00"]
+		},
+		"1F93D-200D-2642-FE0F": {
+			"unified": "1F93D-200D-2642-FE0F",
+			"imagePosition": ["71.00", "91.00"]
+		},
+		"1F93D": {
+			"unified": "1F93D",
+			"imagePosition": ["72.67", "1.00"]
+		},
+		"1F93E-200D-2640-FE0F": {
+			"unified": "1F93E-200D-2640-FE0F",
+			"imagePosition": ["72.67", "11.00"]
+		},
+		"1F93E-200D-2642-FE0F": {
+			"unified": "1F93E-200D-2642-FE0F",
+			"imagePosition": ["72.67", "21.00"]
+		},
+		"1F93E": {
+			"unified": "1F93E",
+			"imagePosition": ["72.67", "31.00"]
+		},
+		"1F977": {
+			"unified": "1F977",
+			"imagePosition": ["74.33", "32.67"]
+		},
+		"1F9B4": {
+			"unified": "1F9B4",
+			"imagePosition": ["76.00", "34.33"]
+		},
+		"1F9B5": {
+			"unified": "1F9B5",
+			"imagePosition": ["76.00", "36.00"]
+		},
+		"1F9B6": {
+			"unified": "1F9B6",
+			"imagePosition": ["76.00", "46.00"]
+		},
+		"1F9B7": {
+			"unified": "1F9B7",
+			"imagePosition": ["76.00", "56.00"]
+		},
+		"1F9B8-200D-2640-FE0F": {
+			"unified": "1F9B8-200D-2640-FE0F",
+			"imagePosition": ["76.00", "57.67"]
+		},
+		"1F9B8-200D-2642-FE0F": {
+			"unified": "1F9B8-200D-2642-FE0F",
+			"imagePosition": ["76.00", "67.67"]
+		},
+		"1F9B8": {
+			"unified": "1F9B8",
+			"imagePosition": ["76.00", "77.67"]
+		},
+		"1F9B9-200D-2640-FE0F": {
+			"unified": "1F9B9-200D-2640-FE0F",
+			"imagePosition": ["76.00", "87.67"]
+		},
+		"1F9B9-200D-2642-FE0F": {
+			"unified": "1F9B9-200D-2642-FE0F",
+			"imagePosition": ["76.00", "97.67"]
+		},
+		"1F9B9": {
+			"unified": "1F9B9",
+			"imagePosition": ["77.67", "7.67"]
+		},
+		"1F9BB": {
+			"unified": "1F9BB",
+			"imagePosition": ["77.67", "19.33"]
+		},
+		"1F9BE": {
+			"unified": "1F9BE",
+			"imagePosition": ["77.67", "32.67"]
+		},
+		"1F9BF": {
+			"unified": "1F9BF",
+			"imagePosition": ["77.67", "34.33"]
+		},
+		"1F9CD-200D-2640-FE0F": {
+			"unified": "1F9CD-200D-2640-FE0F",
+			"imagePosition": ["77.67", "56.00"]
+		},
+		"1F9CD-200D-2642-FE0F": {
+			"unified": "1F9CD-200D-2642-FE0F",
+			"imagePosition": ["77.67", "66.00"]
+		},
+		"1F9CD": {
+			"unified": "1F9CD",
+			"imagePosition": ["77.67", "76.00"]
+		},
+		"1F9CE-200D-2640-FE0F": {
+			"unified": "1F9CE-200D-2640-FE0F",
+			"imagePosition": ["77.67", "86.00"]
+		},
+		"1F9CE-200D-2642-FE0F": {
+			"unified": "1F9CE-200D-2642-FE0F",
+			"imagePosition": ["77.67", "96.00"]
+		},
+		"1F9CE": {
+			"unified": "1F9CE",
+			"imagePosition": ["79.33", "6.00"]
+		},
+		"1F9CF-200D-2640-FE0F": {
+			"unified": "1F9CF-200D-2640-FE0F",
+			"imagePosition": ["79.33", "16.00"]
+		},
+		"1F9CF-200D-2642-FE0F": {
+			"unified": "1F9CF-200D-2642-FE0F",
+			"imagePosition": ["79.33", "26.00"]
+		},
+		"1F9CF": {
+			"unified": "1F9CF",
+			"imagePosition": ["79.33", "36.00"]
+		},
+		"1F9D1-200D-1F33E": {
+			"unified": "1F9D1-200D-1F33E",
+			"imagePosition": ["79.33", "47.67"]
+		},
+		"1F9D1-200D-1F373": {
+			"unified": "1F9D1-200D-1F373",
+			"imagePosition": ["79.33", "57.67"]
+		},
+		"1F9D1-200D-1F37C": {
+			"unified": "1F9D1-200D-1F37C",
+			"imagePosition": ["79.33", "67.67"]
+		},
+		"1F9D1-200D-1F384": {
+			"unified": "1F9D1-200D-1F384",
+			"imagePosition": ["79.33", "77.67"]
+		},
+		"1F9D1-200D-1F393": {
+			"unified": "1F9D1-200D-1F393",
+			"imagePosition": ["79.33", "87.67"]
+		},
+		"1F9D1-200D-1F3A4": {
+			"unified": "1F9D1-200D-1F3A4",
+			"imagePosition": ["79.33", "97.67"]
+		},
+		"1F9D1-200D-1F3A8": {
+			"unified": "1F9D1-200D-1F3A8",
+			"imagePosition": ["81.00", "7.67"]
+		},
+		"1F9D1-200D-1F3EB": {
+			"unified": "1F9D1-200D-1F3EB",
+			"imagePosition": ["81.00", "17.67"]
+		},
+		"1F9D1-200D-1F3ED": {
+			"unified": "1F9D1-200D-1F3ED",
+			"imagePosition": ["81.00", "27.67"]
+		},
+		"1F9D1-200D-1F4BB": {
+			"unified": "1F9D1-200D-1F4BB",
+			"imagePosition": ["81.00", "37.67"]
+		},
+		"1F9D1-200D-1F4BC": {
+			"unified": "1F9D1-200D-1F4BC",
+			"imagePosition": ["81.00", "47.67"]
+		},
+		"1F9D1-200D-1F527": {
+			"unified": "1F9D1-200D-1F527",
+			"imagePosition": ["81.00", "57.67"]
+		},
+		"1F9D1-200D-1F52C": {
+			"unified": "1F9D1-200D-1F52C",
+			"imagePosition": ["81.00", "67.67"]
+		},
+		"1F9D1-200D-1F680": {
+			"unified": "1F9D1-200D-1F680",
+			"imagePosition": ["81.00", "77.67"]
+		},
+		"1F9D1-200D-1F692": {
+			"unified": "1F9D1-200D-1F692",
+			"imagePosition": ["81.00", "87.67"]
+		},
+		"1F9D1-200D-1F91D-200D-1F9D1": {
+			"unified": "1F9D1-200D-1F91D-200D-1F9D1",
+			"imagePosition": ["81.00", "97.67"]
+		},
+		"1F9D1-200D-1F9AF": {
+			"unified": "1F9D1-200D-1F9AF",
+			"imagePosition": ["82.67", "41.00"]
+		},
+		"1F9D1-200D-1F9B0": {
+			"unified": "1F9D1-200D-1F9B0",
+			"imagePosition": ["82.67", "51.00"]
+		},
+		"1F9D1-200D-1F9B1": {
+			"unified": "1F9D1-200D-1F9B1",
+			"imagePosition": ["82.67", "61.00"]
+		},
+		"1F9D1-200D-1F9B2": {
+			"unified": "1F9D1-200D-1F9B2",
+			"imagePosition": ["82.67", "71.00"]
+		},
+		"1F9D1-200D-1F9B3": {
+			"unified": "1F9D1-200D-1F9B3",
+			"imagePosition": ["82.67", "81.00"]
+		},
+		"1F9D1-200D-1F9BC": {
+			"unified": "1F9D1-200D-1F9BC",
+			"imagePosition": ["82.67", "91.00"]
+		},
+		"1F9D1-200D-1F9BD": {
+			"unified": "1F9D1-200D-1F9BD",
+			"imagePosition": ["84.33", "1.00"]
+		},
+		"1F9D1-200D-2695-FE0F": {
+			"unified": "1F9D1-200D-2695-FE0F",
+			"imagePosition": ["84.33", "11.00"]
+		},
+		"1F9D1-200D-2696-FE0F": {
+			"unified": "1F9D1-200D-2696-FE0F",
+			"imagePosition": ["84.33", "21.00"]
+		},
+		"1F9D1-200D-2708-FE0F": {
+			"unified": "1F9D1-200D-2708-FE0F",
+			"imagePosition": ["84.33", "31.00"]
+		},
+		"1F9D1": {
+			"unified": "1F9D1",
+			"imagePosition": ["84.33", "41.00"]
+		},
+		"1F9D2": {
+			"unified": "1F9D2",
+			"imagePosition": ["84.33", "51.00"]
+		},
+		"1F9D3": {
+			"unified": "1F9D3",
+			"imagePosition": ["84.33", "61.00"]
+		},
+		"1F9D4-200D-2640-FE0F": {
+			"unified": "1F9D4-200D-2640-FE0F",
+			"imagePosition": ["84.33", "71.00"]
+		},
+		"1F9D4-200D-2642-FE0F": {
+			"unified": "1F9D4-200D-2642-FE0F",
+			"imagePosition": ["84.33", "81.00"]
+		},
+		"1F9D4": {
+			"unified": "1F9D4",
+			"imagePosition": ["84.33", "91.00"]
+		},
+		"1F9D5": {
+			"unified": "1F9D5",
+			"imagePosition": ["86.00", "1.00"]
+		},
+		"1F9D6-200D-2640-FE0F": {
+			"unified": "1F9D6-200D-2640-FE0F",
+			"imagePosition": ["86.00", "11.00"]
+		},
+		"1F9D6-200D-2642-FE0F": {
+			"unified": "1F9D6-200D-2642-FE0F",
+			"imagePosition": ["86.00", "21.00"]
+		},
+		"1F9D6": {
+			"unified": "1F9D6",
+			"imagePosition": ["86.00", "31.00"]
+		},
+		"1F9D7-200D-2640-FE0F": {
+			"unified": "1F9D7-200D-2640-FE0F",
+			"imagePosition": ["86.00", "41.00"]
+		},
+		"1F9D7-200D-2642-FE0F": {
+			"unified": "1F9D7-200D-2642-FE0F",
+			"imagePosition": ["86.00", "51.00"]
+		},
+		"1F9D7": {
+			"unified": "1F9D7",
+			"imagePosition": ["86.00", "61.00"]
+		},
+		"1F9D8-200D-2640-FE0F": {
+			"unified": "1F9D8-200D-2640-FE0F",
+			"imagePosition": ["86.00", "71.00"]
+		},
+		"1F9D8-200D-2642-FE0F": {
+			"unified": "1F9D8-200D-2642-FE0F",
+			"imagePosition": ["86.00", "81.00"]
+		},
+		"1F9D8": {
+			"unified": "1F9D8",
+			"imagePosition": ["86.00", "91.00"]
+		},
+		"1F9D9-200D-2640-FE0F": {
+			"unified": "1F9D9-200D-2640-FE0F",
+			"imagePosition": ["87.67", "1.00"]
+		},
+		"1F9D9-200D-2642-FE0F": {
+			"unified": "1F9D9-200D-2642-FE0F",
+			"imagePosition": ["87.67", "11.00"]
+		},
+		"1F9D9": {
+			"unified": "1F9D9",
+			"imagePosition": ["87.67", "21.00"]
+		},
+		"1F9DA-200D-2640-FE0F": {
+			"unified": "1F9DA-200D-2640-FE0F",
+			"imagePosition": ["87.67", "31.00"]
+		},
+		"1F9DA-200D-2642-FE0F": {
+			"unified": "1F9DA-200D-2642-FE0F",
+			"imagePosition": ["87.67", "41.00"]
+		},
+		"1F9DA": {
+			"unified": "1F9DA",
+			"imagePosition": ["87.67", "51.00"]
+		},
+		"1F9DB-200D-2640-FE0F": {
+			"unified": "1F9DB-200D-2640-FE0F",
+			"imagePosition": ["87.67", "61.00"]
+		},
+		"1F9DB-200D-2642-FE0F": {
+			"unified": "1F9DB-200D-2642-FE0F",
+			"imagePosition": ["87.67", "71.00"]
+		},
+		"1F9DB": {
+			"unified": "1F9DB",
+			"imagePosition": ["87.67", "81.00"]
+		},
+		"1F9DC-200D-2640-FE0F": {
+			"unified": "1F9DC-200D-2640-FE0F",
+			"imagePosition": ["87.67", "91.00"]
+		},
+		"1F9DC-200D-2642-FE0F": {
+			"unified": "1F9DC-200D-2642-FE0F",
+			"imagePosition": ["89.33", "1.00"]
+		},
+		"1F9DC": {
+			"unified": "1F9DC",
+			"imagePosition": ["89.33", "11.00"]
+		},
+		"1F9DD-200D-2640-FE0F": {
+			"unified": "1F9DD-200D-2640-FE0F",
+			"imagePosition": ["89.33", "21.00"]
+		},
+		"1F9DD-200D-2642-FE0F": {
+			"unified": "1F9DD-200D-2642-FE0F",
+			"imagePosition": ["89.33", "31.00"]
+		},
+		"1F9DD": {
+			"unified": "1F9DD",
+			"imagePosition": ["89.33", "41.00"]
+		},
+		"1F9DE-200D-2640-FE0F": {
+			"unified": "1F9DE-200D-2640-FE0F",
+			"imagePosition": ["89.33", "51.00"]
+		},
+		"1F9DE-200D-2642-FE0F": {
+			"unified": "1F9DE-200D-2642-FE0F",
+			"imagePosition": ["89.33", "52.67"]
+		},
+		"1F9DE": {
+			"unified": "1F9DE",
+			"imagePosition": ["89.33", "54.33"]
+		},
+		"1F9DF-200D-2640-FE0F": {
+			"unified": "1F9DF-200D-2640-FE0F",
+			"imagePosition": ["89.33", "56.00"]
+		},
+		"1F9DF-200D-2642-FE0F": {
+			"unified": "1F9DF-200D-2642-FE0F",
+			"imagePosition": ["89.33", "57.67"]
+		},
+		"1F9DF": {
+			"unified": "1F9DF",
+			"imagePosition": ["89.33", "59.33"]
+		},
+		"1F9E0": {
+			"unified": "1F9E0",
+			"imagePosition": ["89.33", "61.00"]
+		},
+		"1FAC0": {
+			"unified": "1FAC0",
+			"imagePosition": ["91.00", "92.67"]
+		},
+		"1FAC1": {
+			"unified": "1FAC1",
+			"imagePosition": ["91.00", "94.33"]
+		},
+		"1FAC2": {
+			"unified": "1FAC2",
+			"imagePosition": ["91.00", "96.00"]
+		},
+		"261D-FE0F": {
+			"unified": "261D-FE0F",
+			"imagePosition": ["92.67", "91.00"]
+		},
+		"26F7-FE0F": {
+			"unified": "26F7-FE0F",
+			"imagePosition": ["96.00", "12.67"]
+		},
+		"26F9-FE0F-200D-2640-FE0F": {
+			"unified": "26F9-FE0F-200D-2640-FE0F",
+			"imagePosition": ["96.00", "16.00"]
+		},
+		"26F9-FE0F-200D-2642-FE0F": {
+			"unified": "26F9-FE0F-200D-2642-FE0F",
+			"imagePosition": ["96.00", "26.00"]
+		},
+		"26F9-FE0F": {
+			"unified": "26F9-FE0F",
+			"imagePosition": ["96.00", "36.00"]
+		},
+		"270A": {
+			"unified": "270A",
+			"imagePosition": ["96.00", "56.00"]
+		},
+		"270B": {
+			"unified": "270B",
+			"imagePosition": ["96.00", "66.00"]
+		},
+		"270C-FE0F": {
+			"unified": "270C-FE0F",
+			"imagePosition": ["96.00", "76.00"]
+		},
+		"270D-FE0F": {
+			"unified": "270D-FE0F",
+			"imagePosition": ["96.00", "86.00"]
+		}
+	}
+}
