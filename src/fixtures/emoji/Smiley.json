@@ -1,628 +1,940 @@
 {
-	"smileysAndEmotion": {
+    "smileysAndEmotion":{
 		"1F441-FE0F-200D-1F5E8-FE0F": {
-			"unified": "1F441-FE0F-200D-1F5E8-FE0F",
-			"imagePosition": ["21.00", "7.67"]
+			"name": "1F441-FE0F-200D-1F5E8-FE0F",
+			"native": "👁️‍🗨️",
+			"imagePosition": [20.338983050847457, 6.779661016949152],
+			"unified": "1F441-FE0F-200D-1F5E8-FE0F"
 		},
 		"1F479": {
-			"unified": "1F479",
-			"imagePosition": ["42.67", "37.67"]
+			"name": "1F479",
+			"native": "👹",
+			"imagePosition": [42.3728813559322, 37.28813559322034],
+			"unified": "1F479"
 		},
 		"1F47A": {
-			"unified": "1F47A",
-			"imagePosition": ["42.67", "39.33"]
+			"name": "1F47A",
+			"native": "👺",
+			"imagePosition": [42.3728813559322, 38.983050847457626],
+			"unified": "1F47A"
 		},
 		"1F47B": {
-			"unified": "1F47B",
-			"imagePosition": ["42.67", "41.00"]
+			"name": "1F47B",
+			"native": "👻",
+			"imagePosition": [42.3728813559322, 40.67796610169491],
+			"unified": "1F47B"
 		},
 		"1F47D": {
-			"unified": "1F47D",
-			"imagePosition": ["42.67", "52.67"]
+			"name": "1F47D",
+			"native": "👽",
+			"imagePosition": [42.3728813559322, 52.54237288135593],
+			"unified": "1F47D"
 		},
 		"1F47E": {
-			"unified": "1F47E",
-			"imagePosition": ["42.67", "54.33"]
+			"name": "1F47E",
+			"native": "👾",
+			"imagePosition": [42.3728813559322, 54.23728813559322],
+			"unified": "1F47E"
 		},
 		"1F47F": {
-			"unified": "1F47F",
-			"imagePosition": ["42.67", "56.00"]
+			"name": "1F47F",
+			"native": "👿",
+			"imagePosition": [42.3728813559322, 55.932203389830505],
+			"unified": "1F47F"
 		},
 		"1F480": {
-			"unified": "1F480",
-			"imagePosition": ["42.67", "57.67"]
+			"name": "1F480",
+			"native": "💀",
+			"imagePosition": [42.3728813559322, 57.62711864406779],
+			"unified": "1F480"
 		},
 		"1F48B": {
-			"unified": "1F48B",
-			"imagePosition": ["46.00", "6.00"]
+			"name": "1F48B",
+			"native": "💋",
+			"imagePosition": [45.762711864406775, 5.084745762711864],
+			"unified": "1F48B"
 		},
 		"1F48C": {
-			"unified": "1F48C",
-			"imagePosition": ["46.00", "7.67"]
+			"name": "1F48C",
+			"native": "💌",
+			"imagePosition": [45.762711864406775, 6.779661016949152],
+			"unified": "1F48C"
 		},
 		"1F493": {
-			"unified": "1F493",
-			"imagePosition": ["47.67", "2.67"]
+			"name": "1F493",
+			"native": "💓",
+			"imagePosition": [47.45762711864407, 1.694915254237288],
+			"unified": "1F493"
 		},
 		"1F494": {
-			"unified": "1F494",
-			"imagePosition": ["47.67", "4.33"]
+			"name": "1F494",
+			"native": "💔",
+			"imagePosition": [47.45762711864407, 3.389830508474576],
+			"unified": "1F494"
 		},
 		"1F495": {
-			"unified": "1F495",
-			"imagePosition": ["47.67", "6.00"]
+			"name": "1F495",
+			"native": "💕",
+			"imagePosition": [47.45762711864407, 5.084745762711864],
+			"unified": "1F495"
 		},
 		"1F496": {
-			"unified": "1F496",
-			"imagePosition": ["47.67", "7.67"]
+			"name": "1F496",
+			"native": "💖",
+			"imagePosition": [47.45762711864407, 6.779661016949152],
+			"unified": "1F496"
 		},
 		"1F497": {
-			"unified": "1F497",
-			"imagePosition": ["47.67", "9.33"]
+			"name": "1F497",
+			"native": "💗",
+			"imagePosition": [47.45762711864407, 8.47457627118644],
+			"unified": "1F497"
 		},
 		"1F498": {
-			"unified": "1F498",
-			"imagePosition": ["47.67", "11.00"]
+			"name": "1F498",
+			"native": "💘",
+			"imagePosition": [47.45762711864407, 10.169491525423728],
+			"unified": "1F498"
 		},
 		"1F499": {
-			"unified": "1F499",
-			"imagePosition": ["47.67", "12.67"]
+			"name": "1F499",
+			"native": "💙",
+			"imagePosition": [47.45762711864407, 11.864406779661017],
+			"unified": "1F499"
 		},
 		"1F49A": {
-			"unified": "1F49A",
-			"imagePosition": ["47.67", "14.33"]
+			"name": "1F49A",
+			"native": "💚",
+			"imagePosition": [47.45762711864407, 13.559322033898304],
+			"unified": "1F49A"
 		},
 		"1F49B": {
-			"unified": "1F49B",
-			"imagePosition": ["47.67", "16.00"]
+			"name": "1F49B",
+			"native": "💛",
+			"imagePosition": [47.45762711864407, 15.254237288135592],
+			"unified": "1F49B"
 		},
 		"1F49C": {
-			"unified": "1F49C",
-			"imagePosition": ["47.67", "17.67"]
+			"name": "1F49C",
+			"native": "💜",
+			"imagePosition": [47.45762711864407, 16.94915254237288],
+			"unified": "1F49C"
 		},
 		"1F49D": {
-			"unified": "1F49D",
-			"imagePosition": ["47.67", "19.33"]
+			"name": "1F49D",
+			"native": "💝",
+			"imagePosition": [47.45762711864407, 18.64406779661017],
+			"unified": "1F49D"
 		},
 		"1F49E": {
-			"unified": "1F49E",
-			"imagePosition": ["47.67", "21.00"]
+			"name": "1F49E",
+			"native": "💞",
+			"imagePosition": [47.45762711864407, 20.338983050847457],
+			"unified": "1F49E"
 		},
 		"1F49F": {
-			"unified": "1F49F",
-			"imagePosition": ["47.67", "22.67"]
+			"name": "1F49F",
+			"native": "💟",
+			"imagePosition": [47.45762711864407, 22.033898305084744],
+			"unified": "1F49F"
 		},
 		"1F4A2": {
-			"unified": "1F4A2",
-			"imagePosition": ["47.67", "27.67"]
+			"name": "1F4A2",
+			"native": "💢",
+			"imagePosition": [47.45762711864407, 27.11864406779661],
+			"unified": "1F4A2"
 		},
 		"1F4A3": {
-			"unified": "1F4A3",
-			"imagePosition": ["47.67", "29.33"]
+			"name": "1F4A3",
+			"native": "💣",
+			"imagePosition": [47.45762711864407, 28.813559322033896],
+			"unified": "1F4A3"
 		},
 		"1F4A4": {
-			"unified": "1F4A4",
-			"imagePosition": ["47.67", "31.00"]
+			"name": "1F4A4",
+			"native": "💤",
+			"imagePosition": [47.45762711864407, 30.508474576271183],
+			"unified": "1F4A4"
 		},
 		"1F4A5": {
-			"unified": "1F4A5",
-			"imagePosition": ["47.67", "32.67"]
+			"name": "1F4A5",
+			"native": "💥",
+			"imagePosition": [47.45762711864407, 32.20338983050847],
+			"unified": "1F4A5"
 		},
 		"1F4A6": {
-			"unified": "1F4A6",
-			"imagePosition": ["47.67", "34.33"]
+			"name": "1F4A6",
+			"native": "💦",
+			"imagePosition": [47.45762711864407, 33.89830508474576],
+			"unified": "1F4A6"
 		},
 		"1F4A8": {
-			"unified": "1F4A8",
-			"imagePosition": ["47.67", "37.67"]
+			"name": "1F4A8",
+			"native": "💨",
+			"imagePosition": [47.45762711864407, 37.28813559322034],
+			"unified": "1F4A8"
 		},
 		"1F4A9": {
-			"unified": "1F4A9",
-			"imagePosition": ["47.67", "39.33"]
+			"name": "1F4A9",
+			"native": "💩",
+			"imagePosition": [47.45762711864407, 38.983050847457626],
+			"unified": "1F4A9"
 		},
 		"1F4AB": {
-			"unified": "1F4AB",
-			"imagePosition": ["47.67", "51.00"]
+			"name": "1F4AB",
+			"native": "💫",
+			"imagePosition": [47.45762711864407, 50.847457627118644],
+			"unified": "1F4AB"
 		},
 		"1F4AC": {
-			"unified": "1F4AC",
-			"imagePosition": ["47.67", "52.67"]
+			"name": "1F4AC",
+			"native": "💬",
+			"imagePosition": [47.45762711864407, 52.54237288135593],
+			"unified": "1F4AC"
 		},
 		"1F4AD": {
-			"unified": "1F4AD",
-			"imagePosition": ["47.67", "54.33"]
+			"name": "1F4AD",
+			"native": "💭",
+			"imagePosition": [47.45762711864407, 54.23728813559322],
+			"unified": "1F4AD"
 		},
 		"1F4AF": {
-			"unified": "1F4AF",
-			"imagePosition": ["47.67", "57.67"]
+			"name": "1F4AF",
+			"native": "💯",
+			"imagePosition": [47.45762711864407, 57.62711864406779],
+			"unified": "1F4AF"
 		},
 		"1F573-FE0F": {
-			"unified": "1F573-FE0F",
-			"imagePosition": ["52.67", "47.67"]
+			"name": "1F573-FE0F",
+			"native": "🕳️",
+			"imagePosition": [52.54237288135593, 47.45762711864407],
+			"unified": "1F573-FE0F"
 		},
 		"1F5A4": {
-			"unified": "1F5A4",
-			"imagePosition": ["54.33", "44.33"]
+			"name": "1F5A4",
+			"native": "🖤",
+			"imagePosition": [54.23728813559322, 44.06779661016949],
+			"unified": "1F5A4"
 		},
 		"1F5E8-FE0F": {
-			"unified": "1F5E8-FE0F",
-			"imagePosition": ["54.33", "72.67"]
+			"name": "1F5E8-FE0F",
+			"native": "🗨️",
+			"imagePosition": [54.23728813559322, 72.88135593220339],
+			"unified": "1F5E8-FE0F"
 		},
 		"1F5EF-FE0F": {
-			"unified": "1F5EF-FE0F",
-			"imagePosition": ["54.33", "74.33"]
+			"name": "1F5EF-FE0F",
+			"native": "🗯️",
+			"imagePosition": [54.23728813559322, 74.57627118644068],
+			"unified": "1F5EF-FE0F"
 		},
 		"1F600": {
-			"unified": "1F600",
-			"imagePosition": ["54.33", "87.67"]
+			"name": "1F600",
+			"native": "😀",
+			"imagePosition": [54.23728813559322, 88.13559322033898],
+			"unified": "1F600"
 		},
 		"1F601": {
-			"unified": "1F601",
-			"imagePosition": ["54.33", "89.33"]
+			"name": "1F601",
+			"native": "😁",
+			"imagePosition": [54.23728813559322, 89.83050847457626],
+			"unified": "1F601"
 		},
 		"1F602": {
-			"unified": "1F602",
-			"imagePosition": ["54.33", "91.00"]
+			"name": "1F602",
+			"native": "😂",
+			"imagePosition": [54.23728813559322, 91.52542372881355],
+			"unified": "1F602"
 		},
 		"1F603": {
-			"unified": "1F603",
-			"imagePosition": ["54.33", "92.67"]
+			"name": "1F603",
+			"native": "😃",
+			"imagePosition": [54.23728813559322, 93.22033898305084],
+			"unified": "1F603"
 		},
 		"1F604": {
-			"unified": "1F604",
-			"imagePosition": ["54.33", "94.33"]
+			"name": "1F604",
+			"native": "😄",
+			"imagePosition": [54.23728813559322, 94.91525423728814],
+			"unified": "1F604"
 		},
 		"1F605": {
-			"unified": "1F605",
-			"imagePosition": ["54.33", "96.00"]
+			"name": "1F605",
+			"native": "😅",
+			"imagePosition": [54.23728813559322, 96.61016949152543],
+			"unified": "1F605"
 		},
 		"1F606": {
-			"unified": "1F606",
-			"imagePosition": ["54.33", "97.67"]
+			"name": "1F606",
+			"native": "😆",
+			"imagePosition": [54.23728813559322, 98.30508474576271],
+			"unified": "1F606"
 		},
 		"1F607": {
-			"unified": "1F607",
-			"imagePosition": ["54.33", "99.33"]
+			"name": "1F607",
+			"native": "😇",
+			"imagePosition": [54.23728813559322, 100],
+			"unified": "1F607"
 		},
 		"1F608": {
-			"unified": "1F608",
-			"imagePosition": ["56.00", "1.00"]
+			"name": "1F608",
+			"native": "😈",
+			"imagePosition": [55.932203389830505, 0],
+			"unified": "1F608"
 		},
 		"1F609": {
-			"unified": "1F609",
-			"imagePosition": ["56.00", "2.67"]
+			"name": "1F609",
+			"native": "😉",
+			"imagePosition": [55.932203389830505, 1.694915254237288],
+			"unified": "1F609"
 		},
 		"1F60A": {
-			"unified": "1F60A",
-			"imagePosition": ["56.00", "4.33"]
+			"name": "1F60A",
+			"native": "😊",
+			"imagePosition": [55.932203389830505, 3.389830508474576],
+			"unified": "1F60A"
 		},
 		"1F60B": {
-			"unified": "1F60B",
-			"imagePosition": ["56.00", "6.00"]
+			"name": "1F60B",
+			"native": "😋",
+			"imagePosition": [55.932203389830505, 5.084745762711864],
+			"unified": "1F60B"
 		},
 		"1F60C": {
-			"unified": "1F60C",
-			"imagePosition": ["56.00", "7.67"]
+			"name": "1F60C",
+			"native": "😌",
+			"imagePosition": [55.932203389830505, 6.779661016949152],
+			"unified": "1F60C"
 		},
 		"1F60D": {
-			"unified": "1F60D",
-			"imagePosition": ["56.00", "9.33"]
+			"name": "1F60D",
+			"native": "😍",
+			"imagePosition": [55.932203389830505, 8.47457627118644],
+			"unified": "1F60D"
 		},
 		"1F60E": {
-			"unified": "1F60E",
-			"imagePosition": ["56.00", "11.00"]
+			"name": "1F60E",
+			"native": "😎",
+			"imagePosition": [55.932203389830505, 10.169491525423728],
+			"unified": "1F60E"
 		},
 		"1F60F": {
-			"unified": "1F60F",
-			"imagePosition": ["56.00", "12.67"]
+			"name": "1F60F",
+			"native": "😏",
+			"imagePosition": [55.932203389830505, 11.864406779661017],
+			"unified": "1F60F"
 		},
 		"1F610": {
-			"unified": "1F610",
-			"imagePosition": ["56.00", "14.33"]
+			"name": "1F610",
+			"native": "😐",
+			"imagePosition": [55.932203389830505, 13.559322033898304],
+			"unified": "1F610"
 		},
 		"1F611": {
-			"unified": "1F611",
-			"imagePosition": ["56.00", "16.00"]
+			"name": "1F611",
+			"native": "😑",
+			"imagePosition": [55.932203389830505, 15.254237288135592],
+			"unified": "1F611"
 		},
 		"1F612": {
-			"unified": "1F612",
-			"imagePosition": ["56.00", "17.67"]
+			"name": "1F612",
+			"native": "😒",
+			"imagePosition": [55.932203389830505, 16.94915254237288],
+			"unified": "1F612"
 		},
 		"1F613": {
-			"unified": "1F613",
-			"imagePosition": ["56.00", "19.33"]
+			"name": "1F613",
+			"native": "😓",
+			"imagePosition": [55.932203389830505, 18.64406779661017],
+			"unified": "1F613"
 		},
 		"1F614": {
-			"unified": "1F614",
-			"imagePosition": ["56.00", "21.00"]
+			"name": "1F614",
+			"native": "😔",
+			"imagePosition": [55.932203389830505, 20.338983050847457],
+			"unified": "1F614"
 		},
 		"1F615": {
-			"unified": "1F615",
-			"imagePosition": ["56.00", "22.67"]
+			"name": "1F615",
+			"native": "😕",
+			"imagePosition": [55.932203389830505, 22.033898305084744],
+			"unified": "1F615"
 		},
 		"1F616": {
-			"unified": "1F616",
-			"imagePosition": ["56.00", "24.33"]
+			"name": "1F616",
+			"native": "😖",
+			"imagePosition": [55.932203389830505, 23.728813559322035],
+			"unified": "1F616"
 		},
 		"1F617": {
-			"unified": "1F617",
-			"imagePosition": ["56.00", "26.00"]
+			"name": "1F617",
+			"native": "😗",
+			"imagePosition": [55.932203389830505, 25.423728813559322],
+			"unified": "1F617"
 		},
 		"1F618": {
-			"unified": "1F618",
-			"imagePosition": ["56.00", "27.67"]
+			"name": "1F618",
+			"native": "😘",
+			"imagePosition": [55.932203389830505, 27.11864406779661],
+			"unified": "1F618"
 		},
 		"1F619": {
-			"unified": "1F619",
-			"imagePosition": ["56.00", "29.33"]
+			"name": "1F619",
+			"native": "😙",
+			"imagePosition": [55.932203389830505, 28.813559322033896],
+			"unified": "1F619"
 		},
 		"1F61A": {
-			"unified": "1F61A",
-			"imagePosition": ["56.00", "31.00"]
+			"name": "1F61A",
+			"native": "😚",
+			"imagePosition": [55.932203389830505, 30.508474576271183],
+			"unified": "1F61A"
 		},
 		"1F61B": {
-			"unified": "1F61B",
-			"imagePosition": ["56.00", "32.67"]
+			"name": "1F61B",
+			"native": "😛",
+			"imagePosition": [55.932203389830505, 32.20338983050847],
+			"unified": "1F61B"
 		},
 		"1F61C": {
-			"unified": "1F61C",
-			"imagePosition": ["56.00", "34.33"]
+			"name": "1F61C",
+			"native": "😜",
+			"imagePosition": [55.932203389830505, 33.89830508474576],
+			"unified": "1F61C"
 		},
 		"1F61D": {
-			"unified": "1F61D",
-			"imagePosition": ["56.00", "36.00"]
+			"name": "1F61D",
+			"native": "😝",
+			"imagePosition": [55.932203389830505, 35.59322033898305],
+			"unified": "1F61D"
 		},
 		"1F61E": {
-			"unified": "1F61E",
-			"imagePosition": ["56.00", "37.67"]
+			"name": "1F61E",
+			"native": "😞",
+			"imagePosition": [55.932203389830505, 37.28813559322034],
+			"unified": "1F61E"
 		},
 		"1F61F": {
-			"unified": "1F61F",
-			"imagePosition": ["56.00", "39.33"]
+			"name": "1F61F",
+			"native": "😟",
+			"imagePosition": [55.932203389830505, 38.983050847457626],
+			"unified": "1F61F"
 		},
 		"1F620": {
-			"unified": "1F620",
-			"imagePosition": ["56.00", "41.00"]
+			"name": "1F620",
+			"native": "😠",
+			"imagePosition": [55.932203389830505, 40.67796610169491],
+			"unified": "1F620"
 		},
 		"1F621": {
-			"unified": "1F621",
-			"imagePosition": ["56.00", "42.67"]
+			"name": "1F621",
+			"native": "😡",
+			"imagePosition": [55.932203389830505, 42.3728813559322],
+			"unified": "1F621"
 		},
 		"1F622": {
-			"unified": "1F622",
-			"imagePosition": ["56.00", "44.33"]
+			"name": "1F622",
+			"native": "😢",
+			"imagePosition": [55.932203389830505, 44.06779661016949],
+			"unified": "1F622"
 		},
 		"1F623": {
-			"unified": "1F623",
-			"imagePosition": ["56.00", "46.00"]
+			"name": "1F623",
+			"native": "😣",
+			"imagePosition": [55.932203389830505, 45.762711864406775],
+			"unified": "1F623"
 		},
 		"1F624": {
-			"unified": "1F624",
-			"imagePosition": ["56.00", "47.67"]
+			"name": "1F624",
+			"native": "😤",
+			"imagePosition": [55.932203389830505, 47.45762711864407],
+			"unified": "1F624"
 		},
 		"1F625": {
-			"unified": "1F625",
-			"imagePosition": ["56.00", "49.33"]
+			"name": "1F625",
+			"native": "😥",
+			"imagePosition": [55.932203389830505, 49.152542372881356],
+			"unified": "1F625"
 		},
 		"1F626": {
-			"unified": "1F626",
-			"imagePosition": ["56.00", "51.00"]
+			"name": "1F626",
+			"native": "😦",
+			"imagePosition": [55.932203389830505, 50.847457627118644],
+			"unified": "1F626"
 		},
 		"1F627": {
-			"unified": "1F627",
-			"imagePosition": ["56.00", "52.67"]
+			"name": "1F627",
+			"native": "😧",
+			"imagePosition": [55.932203389830505, 52.54237288135593],
+			"unified": "1F627"
 		},
 		"1F628": {
-			"unified": "1F628",
-			"imagePosition": ["56.00", "54.33"]
+			"name": "1F628",
+			"native": "😨",
+			"imagePosition": [55.932203389830505, 54.23728813559322],
+			"unified": "1F628"
 		},
 		"1F629": {
-			"unified": "1F629",
-			"imagePosition": ["56.00", "56.00"]
+			"name": "1F629",
+			"native": "😩",
+			"imagePosition": [55.932203389830505, 55.932203389830505],
+			"unified": "1F629"
 		},
 		"1F62A": {
-			"unified": "1F62A",
-			"imagePosition": ["56.00", "57.67"]
+			"name": "1F62A",
+			"native": "😪",
+			"imagePosition": [55.932203389830505, 57.62711864406779],
+			"unified": "1F62A"
 		},
 		"1F62B": {
-			"unified": "1F62B",
-			"imagePosition": ["56.00", "59.33"]
+			"name": "1F62B",
+			"native": "😫",
+			"imagePosition": [55.932203389830505, 59.32203389830508],
+			"unified": "1F62B"
 		},
 		"1F62C": {
-			"unified": "1F62C",
-			"imagePosition": ["56.00", "61.00"]
+			"name": "1F62C",
+			"native": "😬",
+			"imagePosition": [55.932203389830505, 61.01694915254237],
+			"unified": "1F62C"
 		},
 		"1F62D": {
-			"unified": "1F62D",
-			"imagePosition": ["56.00", "62.67"]
+			"name": "1F62D",
+			"native": "😭",
+			"imagePosition": [55.932203389830505, 62.71186440677966],
+			"unified": "1F62D"
 		},
 		"1F62E-200D-1F4A8": {
-			"unified": "1F62E-200D-1F4A8",
-			"imagePosition": ["56.00", "64.33"]
+			"name": "1F62E-200D-1F4A8",
+			"native": "😮‍💨",
+			"imagePosition": [55.932203389830505, 64.40677966101694],
+			"unified": "1F62E-200D-1F4A8"
 		},
 		"1F62E": {
-			"unified": "1F62E",
-			"imagePosition": ["56.00", "66.00"]
+			"name": "1F62E",
+			"native": "😮",
+			"imagePosition": [55.932203389830505, 66.10169491525423],
+			"unified": "1F62E"
 		},
 		"1F62F": {
-			"unified": "1F62F",
-			"imagePosition": ["56.00", "67.67"]
+			"name": "1F62F",
+			"native": "😯",
+			"imagePosition": [55.932203389830505, 67.79661016949152],
+			"unified": "1F62F"
 		},
 		"1F630": {
-			"unified": "1F630",
-			"imagePosition": ["56.00", "69.33"]
+			"name": "1F630",
+			"native": "😰",
+			"imagePosition": [55.932203389830505, 69.49152542372882],
+			"unified": "1F630"
 		},
 		"1F631": {
-			"unified": "1F631",
-			"imagePosition": ["56.00", "71.00"]
+			"name": "1F631",
+			"native": "😱",
+			"imagePosition": [55.932203389830505, 71.1864406779661],
+			"unified": "1F631"
 		},
 		"1F632": {
-			"unified": "1F632",
-			"imagePosition": ["56.00", "72.67"]
+			"name": "1F632",
+			"native": "😲",
+			"imagePosition": [55.932203389830505, 72.88135593220339],
+			"unified": "1F632"
 		},
 		"1F633": {
-			"unified": "1F633",
-			"imagePosition": ["56.00", "74.33"]
+			"name": "1F633",
+			"native": "😳",
+			"imagePosition": [55.932203389830505, 74.57627118644068],
+			"unified": "1F633"
 		},
 		"1F634": {
-			"unified": "1F634",
-			"imagePosition": ["56.00", "76.00"]
+			"name": "1F634",
+			"native": "😴",
+			"imagePosition": [55.932203389830505, 76.27118644067797],
+			"unified": "1F634"
 		},
 		"1F635-200D-1F4AB": {
-			"unified": "1F635-200D-1F4AB",
-			"imagePosition": ["56.00", "77.67"]
+			"name": "1F635-200D-1F4AB",
+			"native": "😵‍💫",
+			"imagePosition": [55.932203389830505, 77.96610169491525],
+			"unified": "1F635-200D-1F4AB"
 		},
 		"1F635": {
-			"unified": "1F635",
-			"imagePosition": ["56.00", "79.33"]
+			"name": "1F635",
+			"native": "😵",
+			"imagePosition": [55.932203389830505, 79.66101694915254],
+			"unified": "1F635"
 		},
 		"1F636-200D-1F32B-FE0F": {
-			"unified": "1F636-200D-1F32B-FE0F",
-			"imagePosition": ["56.00", "81.00"]
+			"name": "1F636-200D-1F32B-FE0F",
+			"native": "😶‍🌫️",
+			"imagePosition": [55.932203389830505, 81.35593220338983],
+			"unified": "1F636-200D-1F32B-FE0F"
 		},
 		"1F636": {
-			"unified": "1F636",
-			"imagePosition": ["56.00", "82.67"]
+			"name": "1F636",
+			"native": "😶",
+			"imagePosition": [55.932203389830505, 83.05084745762711],
+			"unified": "1F636"
 		},
 		"1F637": {
-			"unified": "1F637",
-			"imagePosition": ["56.00", "84.33"]
+			"name": "1F637",
+			"native": "😷",
+			"imagePosition": [55.932203389830505, 84.7457627118644],
+			"unified": "1F637"
 		},
 		"1F638": {
-			"unified": "1F638",
-			"imagePosition": ["56.00", "86.00"]
+			"name": "1F638",
+			"native": "😸",
+			"imagePosition": [55.932203389830505, 86.44067796610169],
+			"unified": "1F638"
 		},
 		"1F639": {
-			"unified": "1F639",
-			"imagePosition": ["56.00", "87.67"]
+			"name": "1F639",
+			"native": "😹",
+			"imagePosition": [55.932203389830505, 88.13559322033898],
+			"unified": "1F639"
 		},
 		"1F63A": {
-			"unified": "1F63A",
-			"imagePosition": ["56.00", "89.33"]
+			"name": "1F63A",
+			"native": "😺",
+			"imagePosition": [55.932203389830505, 89.83050847457626],
+			"unified": "1F63A"
 		},
 		"1F63B": {
-			"unified": "1F63B",
-			"imagePosition": ["56.00", "91.00"]
+			"name": "1F63B",
+			"native": "😻",
+			"imagePosition": [55.932203389830505, 91.52542372881355],
+			"unified": "1F63B"
 		},
 		"1F63C": {
-			"unified": "1F63C",
-			"imagePosition": ["56.00", "92.67"]
+			"name": "1F63C",
+			"native": "😼",
+			"imagePosition": [55.932203389830505, 93.22033898305084],
+			"unified": "1F63C"
 		},
 		"1F63D": {
-			"unified": "1F63D",
-			"imagePosition": ["56.00", "94.33"]
+			"name": "1F63D",
+			"native": "😽",
+			"imagePosition": [55.932203389830505, 94.91525423728814],
+			"unified": "1F63D"
 		},
 		"1F63E": {
-			"unified": "1F63E",
-			"imagePosition": ["56.00", "96.00"]
+			"name": "1F63E",
+			"native": "😾",
+			"imagePosition": [55.932203389830505, 96.61016949152543],
+			"unified": "1F63E"
 		},
 		"1F63F": {
-			"unified": "1F63F",
-			"imagePosition": ["56.00", "97.67"]
+			"name": "1F63F",
+			"native": "😿",
+			"imagePosition": [55.932203389830505, 98.30508474576271],
+			"unified": "1F63F"
 		},
 		"1F640": {
-			"unified": "1F640",
-			"imagePosition": ["56.00", "99.33"]
+			"name": "1F640",
+			"native": "🙀",
+			"imagePosition": [55.932203389830505, 100],
+			"unified": "1F640"
 		},
 		"1F641": {
-			"unified": "1F641",
-			"imagePosition": ["57.67", "1.00"]
+			"name": "1F641",
+			"native": "🙁",
+			"imagePosition": [57.62711864406779, 0],
+			"unified": "1F641"
 		},
 		"1F642": {
-			"unified": "1F642",
-			"imagePosition": ["57.67", "2.67"]
+			"name": "1F642",
+			"native": "🙂",
+			"imagePosition": [57.62711864406779, 1.694915254237288],
+			"unified": "1F642"
 		},
 		"1F643": {
-			"unified": "1F643",
-			"imagePosition": ["57.67", "4.33"]
+			"name": "1F643",
+			"native": "🙃",
+			"imagePosition": [57.62711864406779, 3.389830508474576],
+			"unified": "1F643"
 		},
 		"1F644": {
-			"unified": "1F644",
-			"imagePosition": ["57.67", "6.00"]
+			"name": "1F644",
+			"native": "🙄",
+			"imagePosition": [57.62711864406779, 5.084745762711864],
+			"unified": "1F644"
 		},
 		"1F648": {
-			"unified": "1F648",
-			"imagePosition": ["57.67", "97.67"]
+			"name": "1F648",
+			"native": "🙈",
+			"imagePosition": [57.62711864406779, 98.30508474576271],
+			"unified": "1F648"
 		},
 		"1F649": {
-			"unified": "1F649",
-			"imagePosition": ["57.67", "99.33"]
+			"name": "1F649",
+			"native": "🙉",
+			"imagePosition": [57.62711864406779, 100],
+			"unified": "1F649"
 		},
 		"1F64A": {
-			"unified": "1F64A",
-			"imagePosition": ["59.33", "1.00"]
+			"name": "1F64A",
+			"native": "🙊",
+			"imagePosition": [59.32203389830508, 0],
+			"unified": "1F64A"
 		},
 		"1F90D": {
-			"unified": "1F90D",
-			"imagePosition": ["66.00", "41.00"]
+			"name": "1F90D",
+			"native": "🤍",
+			"imagePosition": [66.10169491525423, 40.67796610169491],
+			"unified": "1F90D"
 		},
 		"1F90E": {
-			"unified": "1F90E",
-			"imagePosition": ["66.00", "42.67"]
+			"name": "1F90E",
+			"native": "🤎",
+			"imagePosition": [66.10169491525423, 42.3728813559322],
+			"unified": "1F90E"
 		},
 		"1F910": {
-			"unified": "1F910",
-			"imagePosition": ["66.00", "54.33"]
+			"name": "1F910",
+			"native": "🤐",
+			"imagePosition": [66.10169491525423, 54.23728813559322],
+			"unified": "1F910"
 		},
 		"1F911": {
-			"unified": "1F911",
-			"imagePosition": ["66.00", "56.00"]
+			"name": "1F911",
+			"native": "🤑",
+			"imagePosition": [66.10169491525423, 55.932203389830505],
+			"unified": "1F911"
 		},
 		"1F912": {
-			"unified": "1F912",
-			"imagePosition": ["66.00", "57.67"]
+			"name": "1F912",
+			"native": "🤒",
+			"imagePosition": [66.10169491525423, 57.62711864406779],
+			"unified": "1F912"
 		},
 		"1F913": {
-			"unified": "1F913",
-			"imagePosition": ["66.00", "59.33"]
+			"name": "1F913",
+			"native": "🤓",
+			"imagePosition": [66.10169491525423, 59.32203389830508],
+			"unified": "1F913"
 		},
 		"1F914": {
-			"unified": "1F914",
-			"imagePosition": ["66.00", "61.00"]
+			"name": "1F914",
+			"native": "🤔",
+			"imagePosition": [66.10169491525423, 61.01694915254237],
+			"unified": "1F914"
 		},
 		"1F915": {
-			"unified": "1F915",
-			"imagePosition": ["66.00", "62.67"]
+			"name": "1F915",
+			"native": "🤕",
+			"imagePosition": [66.10169491525423, 62.71186440677966],
+			"unified": "1F915"
 		},
 		"1F916": {
-			"unified": "1F916",
-			"imagePosition": ["66.00", "64.33"]
+			"name": "1F916",
+			"native": "🤖",
+			"imagePosition": [66.10169491525423, 64.40677966101694],
+			"unified": "1F916"
 		},
 		"1F917": {
-			"unified": "1F917",
-			"imagePosition": ["66.00", "66.00"]
+			"name": "1F917",
+			"native": "🤗",
+			"imagePosition": [66.10169491525423, 66.10169491525423],
+			"unified": "1F917"
 		},
 		"1F920": {
-			"unified": "1F920",
-			"imagePosition": ["67.67", "39.33"]
+			"name": "1F920",
+			"native": "🤠",
+			"imagePosition": [67.79661016949152, 38.983050847457626],
+			"unified": "1F920"
 		},
 		"1F921": {
-			"unified": "1F921",
-			"imagePosition": ["67.67", "41.00"]
+			"name": "1F921",
+			"native": "🤡",
+			"imagePosition": [67.79661016949152, 40.67796610169491],
+			"unified": "1F921"
 		},
 		"1F922": {
-			"unified": "1F922",
-			"imagePosition": ["67.67", "42.67"]
+			"name": "1F922",
+			"native": "🤢",
+			"imagePosition": [67.79661016949152, 42.3728813559322],
+			"unified": "1F922"
 		},
 		"1F923": {
-			"unified": "1F923",
-			"imagePosition": ["67.67", "44.33"]
+			"name": "1F923",
+			"native": "🤣",
+			"imagePosition": [67.79661016949152, 44.06779661016949],
+			"unified": "1F923"
 		},
 		"1F924": {
-			"unified": "1F924",
-			"imagePosition": ["67.67", "46.00"]
+			"name": "1F924",
+			"native": "🤤",
+			"imagePosition": [67.79661016949152, 45.762711864406775],
+			"unified": "1F924"
 		},
 		"1F925": {
-			"unified": "1F925",
-			"imagePosition": ["67.67", "47.67"]
+			"name": "1F925",
+			"native": "🤥",
+			"imagePosition": [67.79661016949152, 47.45762711864407],
+			"unified": "1F925"
 		},
 		"1F927": {
-			"unified": "1F927",
-			"imagePosition": ["67.67", "79.33"]
+			"name": "1F927",
+			"native": "🤧",
+			"imagePosition": [67.79661016949152, 79.66101694915254],
+			"unified": "1F927"
 		},
 		"1F928": {
-			"unified": "1F928",
-			"imagePosition": ["67.67", "81.00"]
+			"name": "1F928",
+			"native": "🤨",
+			"imagePosition": [67.79661016949152, 81.35593220338983],
+			"unified": "1F928"
 		},
 		"1F929": {
-			"unified": "1F929",
-			"imagePosition": ["67.67", "82.67"]
+			"name": "1F929",
+			"native": "🤩",
+			"imagePosition": [67.79661016949152, 83.05084745762711],
+			"unified": "1F929"
 		},
 		"1F92A": {
-			"unified": "1F92A",
-			"imagePosition": ["67.67", "84.33"]
+			"name": "1F92A",
+			"native": "🤪",
+			"imagePosition": [67.79661016949152, 84.7457627118644],
+			"unified": "1F92A"
 		},
 		"1F92B": {
-			"unified": "1F92B",
-			"imagePosition": ["67.67", "86.00"]
+			"name": "1F92B",
+			"native": "🤫",
+			"imagePosition": [67.79661016949152, 86.44067796610169],
+			"unified": "1F92B"
 		},
 		"1F92C": {
-			"unified": "1F92C",
-			"imagePosition": ["67.67", "87.67"]
+			"name": "1F92C",
+			"native": "🤬",
+			"imagePosition": [67.79661016949152, 88.13559322033898],
+			"unified": "1F92C"
 		},
 		"1F92D": {
-			"unified": "1F92D",
-			"imagePosition": ["67.67", "89.33"]
+			"name": "1F92D",
+			"native": "🤭",
+			"imagePosition": [67.79661016949152, 89.83050847457626],
+			"unified": "1F92D"
 		},
 		"1F92E": {
-			"unified": "1F92E",
-			"imagePosition": ["67.67", "91.00"]
+			"name": "1F92E",
+			"native": "🤮",
+			"imagePosition": [67.79661016949152, 91.52542372881355],
+			"unified": "1F92E"
 		},
 		"1F92F": {
-			"unified": "1F92F",
-			"imagePosition": ["67.67", "92.67"]
+			"name": "1F92F",
+			"native": "🤯",
+			"imagePosition": [67.79661016949152, 93.22033898305084],
+			"unified": "1F92F"
 		},
 		"1F970": {
-			"unified": "1F970",
-			"imagePosition": ["74.33", "21.00"]
+			"name": "1F970",
+			"native": "🥰",
+			"imagePosition": [74.57627118644068, 20.338983050847457],
+			"unified": "1F970"
 		},
 		"1F971": {
-			"unified": "1F971",
-			"imagePosition": ["74.33", "22.67"]
+			"name": "1F971",
+			"native": "🥱",
+			"imagePosition": [74.57627118644068, 22.033898305084744],
+			"unified": "1F971"
 		},
 		"1F972": {
-			"unified": "1F972",
-			"imagePosition": ["74.33", "24.33"]
+			"name": "1F972",
+			"native": "🥲",
+			"imagePosition": [74.57627118644068, 23.728813559322035],
+			"unified": "1F972"
 		},
 		"1F973": {
-			"unified": "1F973",
-			"imagePosition": ["74.33", "26.00"]
+			"name": "1F973",
+			"native": "🥳",
+			"imagePosition": [74.57627118644068, 25.423728813559322],
+			"unified": "1F973"
 		},
 		"1F974": {
-			"unified": "1F974",
-			"imagePosition": ["74.33", "27.67"]
+			"name": "1F974",
+			"native": "🥴",
+			"imagePosition": [74.57627118644068, 27.11864406779661],
+			"unified": "1F974"
 		},
 		"1F975": {
-			"unified": "1F975",
-			"imagePosition": ["74.33", "29.33"]
+			"name": "1F975",
+			"native": "🥵",
+			"imagePosition": [74.57627118644068, 28.813559322033896],
+			"unified": "1F975"
 		},
 		"1F976": {
-			"unified": "1F976",
-			"imagePosition": ["74.33", "31.00"]
+			"name": "1F976",
+			"native": "🥶",
+			"imagePosition": [74.57627118644068, 30.508474576271183],
+			"unified": "1F976"
 		},
 		"1F978": {
-			"unified": "1F978",
-			"imagePosition": ["74.33", "42.67"]
+			"name": "1F978",
+			"native": "🥸",
+			"imagePosition": [74.57627118644068, 42.3728813559322],
+			"unified": "1F978"
 		},
 		"1F97A": {
-			"unified": "1F97A",
-			"imagePosition": ["74.33", "44.33"]
+			"name": "1F97A",
+			"native": "🥺",
+			"imagePosition": [74.57627118644068, 44.06779661016949],
+			"unified": "1F97A"
 		},
 		"1F9D0": {
-			"unified": "1F9D0",
-			"imagePosition": ["79.33", "46.00"]
+			"name": "1F9D0",
+			"native": "🧐",
+			"imagePosition": [79.66101694915254, 45.762711864406775],
+			"unified": "1F9D0"
 		},
 		"1F9E1": {
-			"unified": "1F9E1",
-			"imagePosition": ["89.33", "62.67"]
+			"name": "1F9E1",
+			"native": "🧡",
+			"imagePosition": [89.83050847457626, 62.71186440677966],
+			"unified": "1F9E1"
 		},
 		"2620-FE0F": {
-			"unified": "2620-FE0F",
-			"imagePosition": ["94.33", "1.00"]
+			"name": "2620-FE0F",
+			"native": "☠️",
+			"imagePosition": [94.91525423728814, 0],
+			"unified": "2620-FE0F"
 		},
 		"2639-FE0F": {
-			"unified": "2639-FE0F",
-			"imagePosition": ["94.33", "14.33"]
+			"name": "2639-FE0F",
+			"native": "☹️",
+			"imagePosition": [94.91525423728814, 13.559322033898304],
+			"unified": "2639-FE0F"
 		},
 		"263A-FE0F": {
-			"unified": "263A-FE0F",
-			"imagePosition": ["94.33", "16.00"]
+			"name": "263A-FE0F",
+			"native": "☺️",
+			"imagePosition": [94.91525423728814, 15.254237288135592],
+			"unified": "263A-FE0F"
 		},
 		"2763-FE0F": {
-			"unified": "2763-FE0F",
-			"imagePosition": ["97.67", "24.33"]
+			"name": "2763-FE0F",
+			"native": "❣️",
+			"imagePosition": [98.30508474576271, 23.728813559322035],
+			"unified": "2763-FE0F"
 		},
 		"2764-FE0F-200D-1F525": {
-			"unified": "2764-FE0F-200D-1F525",
-			"imagePosition": ["97.67", "26.00"]
+			"name": "2764-FE0F-200D-1F525",
+			"native": "❤️‍🔥",
+			"imagePosition": [98.30508474576271, 25.423728813559322],
+			"unified": "2764-FE0F-200D-1F525"
 		},
 		"2764-FE0F-200D-1FA79": {
-			"unified": "2764-FE0F-200D-1FA79",
-			"imagePosition": ["97.67", "27.67"]
+			"name": "2764-FE0F-200D-1FA79",
+			"native": "❤️‍🩹",
+			"imagePosition": [98.30508474576271, 27.11864406779661],
+			"unified": "2764-FE0F-200D-1FA79"
 		},
 		"2764-FE0F": {
-			"unified": "2764-FE0F",
-			"imagePosition": ["97.67", "29.33"]
+			"name": "2764-FE0F",
+			"native": "❤️",
+			"imagePosition": [98.30508474576271, 28.813559322033896],
+			"unified": "2764-FE0F"
 		}
 	}
 }

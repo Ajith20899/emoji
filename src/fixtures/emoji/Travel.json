@@ -1,864 +1,1294 @@
 {
-	"travelAndPlaces": {
+    "travelAndPlaces":  {
 		"2614": {
-			"unified": "2614",
-			"imagePosition": ["92.67", "86.00"]
+			"name": "2614",
+			"native": "☔",
+			"imagePosition": [93.22033898305084, 86.44067796610169],
+			"unified": "2614"
 		},
 		"2693": {
-			"unified": "2693",
-			"imagePosition": ["94.33", "57.67"]
+			"name": "2693",
+			"native": "⚓",
+			"imagePosition": [94.91525423728814, 57.62711864406779],
+			"unified": "2693"
 		},
 		"1F300": {
-			"unified": "1F300",
-			"imagePosition": ["9.33", "7.67"]
+			"name": "1F300",
+			"native": "🌀",
+			"imagePosition": [8.47457627118644, 6.779661016949152],
+			"unified": "1F300"
 		},
 		"1F301": {
-			"unified": "1F301",
-			"imagePosition": ["9.33", "9.33"]
+			"name": "1F301",
+			"native": "🌁",
+			"imagePosition": [8.47457627118644, 8.47457627118644],
+			"unified": "1F301"
 		},
 		"1F302": {
-			"unified": "1F302",
-			"imagePosition": ["9.33", "11.00"]
+			"name": "1F302",
+			"native": "🌂",
+			"imagePosition": [8.47457627118644, 10.169491525423728],
+			"unified": "1F302"
 		},
 		"1F303": {
-			"unified": "1F303",
-			"imagePosition": ["9.33", "12.67"]
+			"name": "1F303",
+			"native": "🌃",
+			"imagePosition": [8.47457627118644, 11.864406779661017],
+			"unified": "1F303"
 		},
 		"1F304": {
-			"unified": "1F304",
-			"imagePosition": ["9.33", "14.33"]
+			"name": "1F304",
+			"native": "🌄",
+			"imagePosition": [8.47457627118644, 13.559322033898304],
+			"unified": "1F304"
 		},
 		"1F305": {
-			"unified": "1F305",
-			"imagePosition": ["9.33", "16.00"]
+			"name": "1F305",
+			"native": "🌅",
+			"imagePosition": [8.47457627118644, 15.254237288135592],
+			"unified": "1F305"
 		},
 		"1F306": {
-			"unified": "1F306",
-			"imagePosition": ["9.33", "17.67"]
+			"name": "1F306",
+			"native": "🌆",
+			"imagePosition": [8.47457627118644, 16.94915254237288],
+			"unified": "1F306"
 		},
 		"1F307": {
-			"unified": "1F307",
-			"imagePosition": ["9.33", "19.33"]
+			"name": "1F307",
+			"native": "🌇",
+			"imagePosition": [8.47457627118644, 18.64406779661017],
+			"unified": "1F307"
 		},
 		"1F308": {
-			"unified": "1F308",
-			"imagePosition": ["9.33", "21.00"]
+			"name": "1F308",
+			"native": "🌈",
+			"imagePosition": [8.47457627118644, 20.338983050847457],
+			"unified": "1F308"
 		},
 		"1F309": {
-			"unified": "1F309",
-			"imagePosition": ["9.33", "22.67"]
+			"name": "1F309",
+			"native": "🌉",
+			"imagePosition": [8.47457627118644, 22.033898305084744],
+			"unified": "1F309"
 		},
 		"1F30A": {
-			"unified": "1F30A",
-			"imagePosition": ["9.33", "24.33"]
+			"name": "1F30A",
+			"native": "🌊",
+			"imagePosition": [8.47457627118644, 23.728813559322035],
+			"unified": "1F30A"
 		},
 		"1F30B": {
-			"unified": "1F30B",
-			"imagePosition": ["9.33", "26.00"]
+			"name": "1F30B",
+			"native": "🌋",
+			"imagePosition": [8.47457627118644, 25.423728813559322],
+			"unified": "1F30B"
 		},
 		"1F30C": {
-			"unified": "1F30C",
-			"imagePosition": ["9.33", "27.67"]
+			"name": "1F30C",
+			"native": "🌌",
+			"imagePosition": [8.47457627118644, 27.11864406779661],
+			"unified": "1F30C"
 		},
 		"1F30D": {
-			"unified": "1F30D",
-			"imagePosition": ["9.33", "29.33"]
+			"name": "1F30D",
+			"native": "🌍",
+			"imagePosition": [8.47457627118644, 28.813559322033896],
+			"unified": "1F30D"
 		},
 		"1F30E": {
-			"unified": "1F30E",
-			"imagePosition": ["9.33", "31.00"]
+			"name": "1F30E",
+			"native": "🌎",
+			"imagePosition": [8.47457627118644, 30.508474576271183],
+			"unified": "1F30E"
 		},
 		"1F30F": {
-			"unified": "1F30F",
-			"imagePosition": ["9.33", "32.67"]
+			"name": "1F30F",
+			"native": "🌏",
+			"imagePosition": [8.47457627118644, 32.20338983050847],
+			"unified": "1F30F"
 		},
 		"1F310": {
-			"unified": "1F310",
-			"imagePosition": ["9.33", "34.33"]
+			"name": "1F310",
+			"native": "🌐",
+			"imagePosition": [8.47457627118644, 33.89830508474576],
+			"unified": "1F310"
 		},
 		"1F311": {
-			"unified": "1F311",
-			"imagePosition": ["9.33", "36.00"]
+			"name": "1F311",
+			"native": "🌑",
+			"imagePosition": [8.47457627118644, 35.59322033898305],
+			"unified": "1F311"
 		},
 		"1F312": {
-			"unified": "1F312",
-			"imagePosition": ["9.33", "37.67"]
+			"name": "1F312",
+			"native": "🌒",
+			"imagePosition": [8.47457627118644, 37.28813559322034],
+			"unified": "1F312"
 		},
 		"1F313": {
-			"unified": "1F313",
-			"imagePosition": ["9.33", "39.33"]
+			"name": "1F313",
+			"native": "🌓",
+			"imagePosition": [8.47457627118644, 38.983050847457626],
+			"unified": "1F313"
 		},
 		"1F314": {
-			"unified": "1F314",
-			"imagePosition": ["9.33", "41.00"]
+			"name": "1F314",
+			"native": "🌔",
+			"imagePosition": [8.47457627118644, 40.67796610169491],
+			"unified": "1F314"
 		},
 		"1F315": {
-			"unified": "1F315",
-			"imagePosition": ["9.33", "42.67"]
+			"name": "1F315",
+			"native": "🌕",
+			"imagePosition": [8.47457627118644, 42.3728813559322],
+			"unified": "1F315"
 		},
 		"1F316": {
-			"unified": "1F316",
-			"imagePosition": ["9.33", "44.33"]
+			"name": "1F316",
+			"native": "🌖",
+			"imagePosition": [8.47457627118644, 44.06779661016949],
+			"unified": "1F316"
 		},
 		"1F317": {
-			"unified": "1F317",
-			"imagePosition": ["9.33", "46.00"]
+			"name": "1F317",
+			"native": "🌗",
+			"imagePosition": [8.47457627118644, 45.762711864406775],
+			"unified": "1F317"
 		},
 		"1F318": {
-			"unified": "1F318",
-			"imagePosition": ["9.33", "47.67"]
+			"name": "1F318",
+			"native": "🌘",
+			"imagePosition": [8.47457627118644, 47.45762711864407],
+			"unified": "1F318"
 		},
 		"1F319": {
-			"unified": "1F319",
-			"imagePosition": ["9.33", "49.33"]
+			"name": "1F319",
+			"native": "🌙",
+			"imagePosition": [8.47457627118644, 49.152542372881356],
+			"unified": "1F319"
 		},
 		"1F31A": {
-			"unified": "1F31A",
-			"imagePosition": ["9.33", "51.00"]
+			"name": "1F31A",
+			"native": "🌚",
+			"imagePosition": [8.47457627118644, 50.847457627118644],
+			"unified": "1F31A"
 		},
 		"1F31B": {
-			"unified": "1F31B",
-			"imagePosition": ["9.33", "52.67"]
+			"name": "1F31B",
+			"native": "🌛",
+			"imagePosition": [8.47457627118644, 52.54237288135593],
+			"unified": "1F31B"
 		},
 		"1F31C": {
-			"unified": "1F31C",
-			"imagePosition": ["9.33", "54.33"]
+			"name": "1F31C",
+			"native": "🌜",
+			"imagePosition": [8.47457627118644, 54.23728813559322],
+			"unified": "1F31C"
 		},
 		"1F31D": {
-			"unified": "1F31D",
-			"imagePosition": ["9.33", "56.00"]
+			"name": "1F31D",
+			"native": "🌝",
+			"imagePosition": [8.47457627118644, 55.932203389830505],
+			"unified": "1F31D"
 		},
 		"1F31E": {
-			"unified": "1F31E",
-			"imagePosition": ["9.33", "57.67"]
+			"name": "1F31E",
+			"native": "🌞",
+			"imagePosition": [8.47457627118644, 57.62711864406779],
+			"unified": "1F31E"
 		},
 		"1F31F": {
-			"unified": "1F31F",
-			"imagePosition": ["9.33", "59.33"]
+			"name": "1F31F",
+			"native": "🌟",
+			"imagePosition": [8.47457627118644, 59.32203389830508],
+			"unified": "1F31F"
 		},
 		"1F320": {
-			"unified": "1F320",
-			"imagePosition": ["9.33", "61.00"]
+			"name": "1F320",
+			"native": "🌠",
+			"imagePosition": [8.47457627118644, 61.01694915254237],
+			"unified": "1F320"
 		},
 		"1F321-FE0F": {
-			"unified": "1F321-FE0F",
-			"imagePosition": ["9.33", "62.67"]
+			"name": "1F321-FE0F",
+			"native": "🌡️",
+			"imagePosition": [8.47457627118644, 62.71186440677966],
+			"unified": "1F321-FE0F"
 		},
 		"1F324-FE0F": {
-			"unified": "1F324-FE0F",
-			"imagePosition": ["9.33", "64.33"]
+			"name": "1F324-FE0F",
+			"native": "🌤️",
+			"imagePosition": [8.47457627118644, 64.40677966101694],
+			"unified": "1F324-FE0F"
 		},
 		"1F325-FE0F": {
-			"unified": "1F325-FE0F",
-			"imagePosition": ["9.33", "66.00"]
+			"name": "1F325-FE0F",
+			"native": "🌥️",
+			"imagePosition": [8.47457627118644, 66.10169491525423],
+			"unified": "1F325-FE0F"
 		},
 		"1F326-FE0F": {
-			"unified": "1F326-FE0F",
-			"imagePosition": ["9.33", "67.67"]
+			"name": "1F326-FE0F",
+			"native": "🌦️",
+			"imagePosition": [8.47457627118644, 67.79661016949152],
+			"unified": "1F326-FE0F"
 		},
 		"1F327-FE0F": {
-			"unified": "1F327-FE0F",
-			"imagePosition": ["9.33", "69.33"]
+			"name": "1F327-FE0F",
+			"native": "🌧️",
+			"imagePosition": [8.47457627118644, 69.49152542372882],
+			"unified": "1F327-FE0F"
 		},
 		"1F328-FE0F": {
-			"unified": "1F328-FE0F",
-			"imagePosition": ["9.33", "71.00"]
+			"name": "1F328-FE0F",
+			"native": "🌨️",
+			"imagePosition": [8.47457627118644, 71.1864406779661],
+			"unified": "1F328-FE0F"
 		},
 		"1F329-FE0F": {
-			"unified": "1F329-FE0F",
-			"imagePosition": ["9.33", "72.67"]
+			"name": "1F329-FE0F",
+			"native": "🌩️",
+			"imagePosition": [8.47457627118644, 72.88135593220339],
+			"unified": "1F329-FE0F"
 		},
 		"1F32A-FE0F": {
-			"unified": "1F32A-FE0F",
-			"imagePosition": ["9.33", "74.33"]
+			"name": "1F32A-FE0F",
+			"native": "🌪️",
+			"imagePosition": [8.47457627118644, 74.57627118644068],
+			"unified": "1F32A-FE0F"
 		},
 		"1F32B-FE0F": {
-			"unified": "1F32B-FE0F",
-			"imagePosition": ["9.33", "76.00"]
+			"name": "1F32B-FE0F",
+			"native": "🌫️",
+			"imagePosition": [8.47457627118644, 76.27118644067797],
+			"unified": "1F32B-FE0F"
 		},
 		"1F32C-FE0F": {
-			"unified": "1F32C-FE0F",
-			"imagePosition": ["9.33", "77.67"]
+			"name": "1F32C-FE0F",
+			"native": "🌬️",
+			"imagePosition": [8.47457627118644, 77.96610169491525],
+			"unified": "1F32C-FE0F"
 		},
 		"1F3A0": {
-			"unified": "1F3A0",
-			"imagePosition": ["12.67", "71.00"]
+			"name": "1F3A0",
+			"native": "🎠",
+			"imagePosition": [11.864406779661017, 71.1864406779661],
+			"unified": "1F3A0"
 		},
 		"1F3A1": {
-			"unified": "1F3A1",
-			"imagePosition": ["12.67", "72.67"]
+			"name": "1F3A1",
+			"native": "🎡",
+			"imagePosition": [11.864406779661017, 72.88135593220339],
+			"unified": "1F3A1"
 		},
 		"1F3A2": {
-			"unified": "1F3A2",
-			"imagePosition": ["12.67", "74.33"]
+			"name": "1F3A2",
+			"native": "🎢",
+			"imagePosition": [11.864406779661017, 74.57627118644068],
+			"unified": "1F3A2"
 		},
 		"1F3AA": {
-			"unified": "1F3AA",
-			"imagePosition": ["12.67", "87.67"]
+			"name": "1F3AA",
+			"native": "🎪",
+			"imagePosition": [11.864406779661017, 88.13559322033898],
+			"unified": "1F3AA"
 		},
 		"1F3CD-FE0F": {
-			"unified": "1F3CD-FE0F",
-			"imagePosition": ["17.67", "4.33"]
+			"name": "1F3CD-FE0F",
+			"native": "🏍️",
+			"imagePosition": [16.94915254237288, 3.389830508474576],
+			"unified": "1F3CD-FE0F"
 		},
 		"1F3CE-FE0F": {
-			"unified": "1F3CE-FE0F",
-			"imagePosition": ["17.67", "6.00"]
+			"name": "1F3CE-FE0F",
+			"native": "🏎️",
+			"imagePosition": [16.94915254237288, 5.084745762711864],
+			"unified": "1F3CE-FE0F"
 		},
 		"1F3D4-FE0F": {
-			"unified": "1F3D4-FE0F",
-			"imagePosition": ["17.67", "16.00"]
+			"name": "1F3D4-FE0F",
+			"native": "🏔️",
+			"imagePosition": [16.94915254237288, 15.254237288135592],
+			"unified": "1F3D4-FE0F"
 		},
 		"1F3D5-FE0F": {
-			"unified": "1F3D5-FE0F",
-			"imagePosition": ["17.67", "17.67"]
+			"name": "1F3D5-FE0F",
+			"native": "🏕️",
+			"imagePosition": [16.94915254237288, 16.94915254237288],
+			"unified": "1F3D5-FE0F"
 		},
 		"1F3D6-FE0F": {
-			"unified": "1F3D6-FE0F",
-			"imagePosition": ["17.67", "19.33"]
+			"name": "1F3D6-FE0F",
+			"native": "🏖️",
+			"imagePosition": [16.94915254237288, 18.64406779661017],
+			"unified": "1F3D6-FE0F"
 		},
 		"1F3D7-FE0F": {
-			"unified": "1F3D7-FE0F",
-			"imagePosition": ["17.67", "21.00"]
+			"name": "1F3D7-FE0F",
+			"native": "🏗️",
+			"imagePosition": [16.94915254237288, 20.338983050847457],
+			"unified": "1F3D7-FE0F"
 		},
 		"1F3D8-FE0F": {
-			"unified": "1F3D8-FE0F",
-			"imagePosition": ["17.67", "22.67"]
+			"name": "1F3D8-FE0F",
+			"native": "🏘️",
+			"imagePosition": [16.94915254237288, 22.033898305084744],
+			"unified": "1F3D8-FE0F"
 		},
 		"1F3D9-FE0F": {
-			"unified": "1F3D9-FE0F",
-			"imagePosition": ["17.67", "24.33"]
+			"name": "1F3D9-FE0F",
+			"native": "🏙️",
+			"imagePosition": [16.94915254237288, 23.728813559322035],
+			"unified": "1F3D9-FE0F"
 		},
 		"1F3DA-FE0F": {
-			"unified": "1F3DA-FE0F",
-			"imagePosition": ["17.67", "26.00"]
+			"name": "1F3DA-FE0F",
+			"native": "🏚️",
+			"imagePosition": [16.94915254237288, 25.423728813559322],
+			"unified": "1F3DA-FE0F"
 		},
 		"1F3DB-FE0F": {
-			"unified": "1F3DB-FE0F",
-			"imagePosition": ["17.67", "27.67"]
+			"name": "1F3DB-FE0F",
+			"native": "🏛️",
+			"imagePosition": [16.94915254237288, 27.11864406779661],
+			"unified": "1F3DB-FE0F"
 		},
 		"1F3DC-FE0F": {
-			"unified": "1F3DC-FE0F",
-			"imagePosition": ["17.67", "29.33"]
+			"name": "1F3DC-FE0F",
+			"native": "🏜️",
+			"imagePosition": [16.94915254237288, 28.813559322033896],
+			"unified": "1F3DC-FE0F"
 		},
 		"1F3DD-FE0F": {
-			"unified": "1F3DD-FE0F",
-			"imagePosition": ["17.67", "31.00"]
+			"name": "1F3DD-FE0F",
+			"native": "🏝️",
+			"imagePosition": [16.94915254237288, 30.508474576271183],
+			"unified": "1F3DD-FE0F"
 		},
 		"1F3DE-FE0F": {
-			"unified": "1F3DE-FE0F",
-			"imagePosition": ["17.67", "32.67"]
+			"name": "1F3DE-FE0F",
+			"native": "🏞️",
+			"imagePosition": [16.94915254237288, 32.20338983050847],
+			"unified": "1F3DE-FE0F"
 		},
 		"1F3DF-FE0F": {
-			"unified": "1F3DF-FE0F",
-			"imagePosition": ["17.67", "34.33"]
+			"name": "1F3DF-FE0F",
+			"native": "🏟️",
+			"imagePosition": [16.94915254237288, 33.89830508474576],
+			"unified": "1F3DF-FE0F"
 		},
 		"1F3E0": {
-			"unified": "1F3E0",
-			"imagePosition": ["17.67", "36.00"]
+			"name": "1F3E0",
+			"native": "🏠",
+			"imagePosition": [16.94915254237288, 35.59322033898305],
+			"unified": "1F3E0"
 		},
 		"1F3E1": {
-			"unified": "1F3E1",
-			"imagePosition": ["17.67", "37.67"]
+			"name": "1F3E1",
+			"native": "🏡",
+			"imagePosition": [16.94915254237288, 37.28813559322034],
+			"unified": "1F3E1"
 		},
 		"1F3E2": {
-			"unified": "1F3E2",
-			"imagePosition": ["17.67", "39.33"]
+			"name": "1F3E2",
+			"native": "🏢",
+			"imagePosition": [16.94915254237288, 38.983050847457626],
+			"unified": "1F3E2"
 		},
 		"1F3E3": {
-			"unified": "1F3E3",
-			"imagePosition": ["17.67", "41.00"]
+			"name": "1F3E3",
+			"native": "🏣",
+			"imagePosition": [16.94915254237288, 40.67796610169491],
+			"unified": "1F3E3"
 		},
 		"1F3E4": {
-			"unified": "1F3E4",
-			"imagePosition": ["17.67", "42.67"]
+			"name": "1F3E4",
+			"native": "🏤",
+			"imagePosition": [16.94915254237288, 42.3728813559322],
+			"unified": "1F3E4"
 		},
 		"1F3E5": {
-			"unified": "1F3E5",
-			"imagePosition": ["17.67", "44.33"]
+			"name": "1F3E5",
+			"native": "🏥",
+			"imagePosition": [16.94915254237288, 44.06779661016949],
+			"unified": "1F3E5"
 		},
 		"1F3E6": {
-			"unified": "1F3E6",
-			"imagePosition": ["17.67", "46.00"]
+			"name": "1F3E6",
+			"native": "🏦",
+			"imagePosition": [16.94915254237288, 45.762711864406775],
+			"unified": "1F3E6"
 		},
 		"1F3E8": {
-			"unified": "1F3E8",
-			"imagePosition": ["17.67", "49.33"]
+			"name": "1F3E8",
+			"native": "🏨",
+			"imagePosition": [16.94915254237288, 49.152542372881356],
+			"unified": "1F3E8"
 		},
 		"1F3E9": {
-			"unified": "1F3E9",
-			"imagePosition": ["17.67", "51.00"]
+			"name": "1F3E9",
+			"native": "🏩",
+			"imagePosition": [16.94915254237288, 50.847457627118644],
+			"unified": "1F3E9"
 		},
 		"1F3EA": {
-			"unified": "1F3EA",
-			"imagePosition": ["17.67", "52.67"]
+			"name": "1F3EA",
+			"native": "🏪",
+			"imagePosition": [16.94915254237288, 52.54237288135593],
+			"unified": "1F3EA"
 		},
 		"1F3EB": {
-			"unified": "1F3EB",
-			"imagePosition": ["17.67", "54.33"]
+			"name": "1F3EB",
+			"native": "🏫",
+			"imagePosition": [16.94915254237288, 54.23728813559322],
+			"unified": "1F3EB"
 		},
 		"1F3EC": {
-			"unified": "1F3EC",
-			"imagePosition": ["17.67", "56.00"]
+			"name": "1F3EC",
+			"native": "🏬",
+			"imagePosition": [16.94915254237288, 55.932203389830505],
+			"unified": "1F3EC"
 		},
 		"1F3ED": {
-			"unified": "1F3ED",
-			"imagePosition": ["17.67", "57.67"]
+			"name": "1F3ED",
+			"native": "🏭",
+			"imagePosition": [16.94915254237288, 57.62711864406779],
+			"unified": "1F3ED"
 		},
 		"1F3EF": {
-			"unified": "1F3EF",
-			"imagePosition": ["17.67", "61.00"]
+			"name": "1F3EF",
+			"native": "🏯",
+			"imagePosition": [16.94915254237288, 61.01694915254237],
+			"unified": "1F3EF"
 		},
 		"1F3F0": {
-			"unified": "1F3F0",
-			"imagePosition": ["17.67", "62.67"]
+			"name": "1F3F0",
+			"native": "🏰",
+			"imagePosition": [16.94915254237288, 62.71186440677966],
+			"unified": "1F3F0"
 		},
 		"1F488": {
-			"unified": "1F488",
-			"imagePosition": ["46.00", "1.00"]
+			"name": "1F488",
+			"native": "💈",
+			"imagePosition": [45.762711864406775, 0],
+			"unified": "1F488"
 		},
 		"1F492": {
-			"unified": "1F492",
-			"imagePosition": ["47.67", "1.00"]
+			"name": "1F492",
+			"native": "💒",
+			"imagePosition": [47.45762711864407, 0],
+			"unified": "1F492"
 		},
 		"1F4A7": {
-			"unified": "1F4A7",
-			"imagePosition": ["47.67", "36.00"]
+			"name": "1F4A7",
+			"native": "💧",
+			"imagePosition": [47.45762711864407, 35.59322033898305],
+			"unified": "1F4A7"
 		},
 		"1F4BA": {
-			"unified": "1F4BA",
-			"imagePosition": ["47.67", "76.00"]
+			"name": "1F4BA",
+			"native": "💺",
+			"imagePosition": [47.45762711864407, 76.27118644067797],
+			"unified": "1F4BA"
 		},
 		"1F525": {
-			"unified": "1F525",
-			"imagePosition": ["51.00", "52.67"]
+			"name": "1F525",
+			"native": "🔥",
+			"imagePosition": [50.847457627118644, 52.54237288135593],
+			"unified": "1F525"
 		},
 		"1F54B": {
-			"unified": "1F54B",
-			"imagePosition": ["51.00", "97.67"]
+			"name": "1F54B",
+			"native": "🕋",
+			"imagePosition": [50.847457627118644, 98.30508474576271],
+			"unified": "1F54B"
 		},
 		"1F54C": {
-			"unified": "1F54C",
-			"imagePosition": ["51.00", "99.33"]
+			"name": "1F54C",
+			"native": "🕌",
+			"imagePosition": [50.847457627118644, 100],
+			"unified": "1F54C"
 		},
 		"1F54D": {
-			"unified": "1F54D",
-			"imagePosition": ["52.67", "1.00"]
+			"name": "1F54D",
+			"native": "🕍",
+			"imagePosition": [52.54237288135593, 0],
+			"unified": "1F54D"
 		},
 		"1F550": {
-			"unified": "1F550",
-			"imagePosition": ["52.67", "4.33"]
+			"name": "1F550",
+			"native": "🕐",
+			"imagePosition": [52.54237288135593, 3.389830508474576],
+			"unified": "1F550"
 		},
 		"1F551": {
-			"unified": "1F551",
-			"imagePosition": ["52.67", "6.00"]
+			"name": "1F551",
+			"native": "🕑",
+			"imagePosition": [52.54237288135593, 5.084745762711864],
+			"unified": "1F551"
 		},
 		"1F552": {
-			"unified": "1F552",
-			"imagePosition": ["52.67", "7.67"]
+			"name": "1F552",
+			"native": "🕒",
+			"imagePosition": [52.54237288135593, 6.779661016949152],
+			"unified": "1F552"
 		},
 		"1F553": {
-			"unified": "1F553",
-			"imagePosition": ["52.67", "9.33"]
+			"name": "1F553",
+			"native": "🕓",
+			"imagePosition": [52.54237288135593, 8.47457627118644],
+			"unified": "1F553"
 		},
 		"1F554": {
-			"unified": "1F554",
-			"imagePosition": ["52.67", "11.00"]
+			"name": "1F554",
+			"native": "🕔",
+			"imagePosition": [52.54237288135593, 10.169491525423728],
+			"unified": "1F554"
 		},
 		"1F555": {
-			"unified": "1F555",
-			"imagePosition": ["52.67", "12.67"]
+			"name": "1F555",
+			"native": "🕕",
+			"imagePosition": [52.54237288135593, 11.864406779661017],
+			"unified": "1F555"
 		},
 		"1F556": {
-			"unified": "1F556",
-			"imagePosition": ["52.67", "14.33"]
+			"name": "1F556",
+			"native": "🕖",
+			"imagePosition": [52.54237288135593, 13.559322033898304],
+			"unified": "1F556"
 		},
 		"1F557": {
-			"unified": "1F557",
-			"imagePosition": ["52.67", "16.00"]
+			"name": "1F557",
+			"native": "🕗",
+			"imagePosition": [52.54237288135593, 15.254237288135592],
+			"unified": "1F557"
 		},
 		"1F558": {
-			"unified": "1F558",
-			"imagePosition": ["52.67", "17.67"]
+			"name": "1F558",
+			"native": "🕘",
+			"imagePosition": [52.54237288135593, 16.94915254237288],
+			"unified": "1F558"
 		},
 		"1F559": {
-			"unified": "1F559",
-			"imagePosition": ["52.67", "19.33"]
+			"name": "1F559",
+			"native": "🕙",
+			"imagePosition": [52.54237288135593, 18.64406779661017],
+			"unified": "1F559"
 		},
 		"1F55A": {
-			"unified": "1F55A",
-			"imagePosition": ["52.67", "21.00"]
+			"name": "1F55A",
+			"native": "🕚",
+			"imagePosition": [52.54237288135593, 20.338983050847457],
+			"unified": "1F55A"
 		},
 		"1F55B": {
-			"unified": "1F55B",
-			"imagePosition": ["52.67", "22.67"]
+			"name": "1F55B",
+			"native": "🕛",
+			"imagePosition": [52.54237288135593, 22.033898305084744],
+			"unified": "1F55B"
 		},
 		"1F55C": {
-			"unified": "1F55C",
-			"imagePosition": ["52.67", "24.33"]
+			"name": "1F55C",
+			"native": "🕜",
+			"imagePosition": [52.54237288135593, 23.728813559322035],
+			"unified": "1F55C"
 		},
 		"1F55D": {
-			"unified": "1F55D",
-			"imagePosition": ["52.67", "26.00"]
+			"name": "1F55D",
+			"native": "🕝",
+			"imagePosition": [52.54237288135593, 25.423728813559322],
+			"unified": "1F55D"
 		},
 		"1F55E": {
-			"unified": "1F55E",
-			"imagePosition": ["52.67", "27.67"]
+			"name": "1F55E",
+			"native": "🕞",
+			"imagePosition": [52.54237288135593, 27.11864406779661],
+			"unified": "1F55E"
 		},
 		"1F55F": {
-			"unified": "1F55F",
-			"imagePosition": ["52.67", "29.33"]
+			"name": "1F55F",
+			"native": "🕟",
+			"imagePosition": [52.54237288135593, 28.813559322033896],
+			"unified": "1F55F"
 		},
 		"1F560": {
-			"unified": "1F560",
-			"imagePosition": ["52.67", "31.00"]
+			"name": "1F560",
+			"native": "🕠",
+			"imagePosition": [52.54237288135593, 30.508474576271183],
+			"unified": "1F560"
 		},
 		"1F561": {
-			"unified": "1F561",
-			"imagePosition": ["52.67", "32.67"]
+			"name": "1F561",
+			"native": "🕡",
+			"imagePosition": [52.54237288135593, 32.20338983050847],
+			"unified": "1F561"
 		},
 		"1F562": {
-			"unified": "1F562",
-			"imagePosition": ["52.67", "34.33"]
+			"name": "1F562",
+			"native": "🕢",
+			"imagePosition": [52.54237288135593, 33.89830508474576],
+			"unified": "1F562"
 		},
 		"1F563": {
-			"unified": "1F563",
-			"imagePosition": ["52.67", "36.00"]
+			"name": "1F563",
+			"native": "🕣",
+			"imagePosition": [52.54237288135593, 35.59322033898305],
+			"unified": "1F563"
 		},
 		"1F564": {
-			"unified": "1F564",
-			"imagePosition": ["52.67", "37.67"]
+			"name": "1F564",
+			"native": "🕤",
+			"imagePosition": [52.54237288135593, 37.28813559322034],
+			"unified": "1F564"
 		},
 		"1F565": {
-			"unified": "1F565",
-			"imagePosition": ["52.67", "39.33"]
+			"name": "1F565",
+			"native": "🕥",
+			"imagePosition": [52.54237288135593, 38.983050847457626],
+			"unified": "1F565"
 		},
 		"1F566": {
-			"unified": "1F566",
-			"imagePosition": ["52.67", "41.00"]
+			"name": "1F566",
+			"native": "🕦",
+			"imagePosition": [52.54237288135593, 40.67796610169491],
+			"unified": "1F566"
 		},
 		"1F567": {
-			"unified": "1F567",
-			"imagePosition": ["52.67", "42.67"]
+			"name": "1F567",
+			"native": "🕧",
+			"imagePosition": [52.54237288135593, 42.3728813559322],
+			"unified": "1F567"
 		},
 		"1F570-FE0F": {
-			"unified": "1F570-FE0F",
-			"imagePosition": ["52.67", "46.00"]
+			"name": "1F570-FE0F",
+			"native": "🕰️",
+			"imagePosition": [52.54237288135593, 45.762711864406775],
+			"unified": "1F570-FE0F"
 		},
 		"1F5FA-FE0F": {
-			"unified": "1F5FA-FE0F",
-			"imagePosition": ["54.33", "77.67"]
+			"name": "1F5FA-FE0F",
+			"native": "🗺️",
+			"imagePosition": [54.23728813559322, 77.96610169491525],
+			"unified": "1F5FA-FE0F"
 		},
 		"1F5FB": {
-			"unified": "1F5FB",
-			"imagePosition": ["54.33", "79.33"]
+			"name": "1F5FB",
+			"native": "🗻",
+			"imagePosition": [54.23728813559322, 79.66101694915254],
+			"unified": "1F5FB"
 		},
 		"1F5FC": {
-			"unified": "1F5FC",
-			"imagePosition": ["54.33", "81.00"]
+			"name": "1F5FC",
+			"native": "🗼",
+			"imagePosition": [54.23728813559322, 81.35593220338983],
+			"unified": "1F5FC"
 		},
 		"1F5FD": {
-			"unified": "1F5FD",
-			"imagePosition": ["54.33", "82.67"]
+			"name": "1F5FD",
+			"native": "🗽",
+			"imagePosition": [54.23728813559322, 83.05084745762711],
+			"unified": "1F5FD"
 		},
 		"1F5FE": {
-			"unified": "1F5FE",
-			"imagePosition": ["54.33", "84.33"]
+			"name": "1F5FE",
+			"native": "🗾",
+			"imagePosition": [54.23728813559322, 84.7457627118644],
+			"unified": "1F5FE"
 		},
 		"1F680": {
-			"unified": "1F680",
-			"imagePosition": ["61.00", "12.67"]
+			"name": "1F680",
+			"native": "🚀",
+			"imagePosition": [61.01694915254237, 11.864406779661017],
+			"unified": "1F680"
 		},
 		"1F681": {
-			"unified": "1F681",
-			"imagePosition": ["61.00", "14.33"]
+			"name": "1F681",
+			"native": "🚁",
+			"imagePosition": [61.01694915254237, 13.559322033898304],
+			"unified": "1F681"
 		},
 		"1F682": {
-			"unified": "1F682",
-			"imagePosition": ["61.00", "16.00"]
+			"name": "1F682",
+			"native": "🚂",
+			"imagePosition": [61.01694915254237, 15.254237288135592],
+			"unified": "1F682"
 		},
 		"1F683": {
-			"unified": "1F683",
-			"imagePosition": ["61.00", "17.67"]
+			"name": "1F683",
+			"native": "🚃",
+			"imagePosition": [61.01694915254237, 16.94915254237288],
+			"unified": "1F683"
 		},
 		"1F684": {
-			"unified": "1F684",
-			"imagePosition": ["61.00", "19.33"]
+			"name": "1F684",
+			"native": "🚄",
+			"imagePosition": [61.01694915254237, 18.64406779661017],
+			"unified": "1F684"
 		},
 		"1F685": {
-			"unified": "1F685",
-			"imagePosition": ["61.00", "21.00"]
+			"name": "1F685",
+			"native": "🚅",
+			"imagePosition": [61.01694915254237, 20.338983050847457],
+			"unified": "1F685"
 		},
 		"1F686": {
-			"unified": "1F686",
-			"imagePosition": ["61.00", "22.67"]
+			"name": "1F686",
+			"native": "🚆",
+			"imagePosition": [61.01694915254237, 22.033898305084744],
+			"unified": "1F686"
 		},
 		"1F687": {
-			"unified": "1F687",
-			"imagePosition": ["61.00", "24.33"]
+			"name": "1F687",
+			"native": "🚇",
+			"imagePosition": [61.01694915254237, 23.728813559322035],
+			"unified": "1F687"
 		},
 		"1F688": {
-			"unified": "1F688",
-			"imagePosition": ["61.00", "26.00"]
+			"name": "1F688",
+			"native": "🚈",
+			"imagePosition": [61.01694915254237, 25.423728813559322],
+			"unified": "1F688"
 		},
 		"1F689": {
-			"unified": "1F689",
-			"imagePosition": ["61.00", "27.67"]
+			"name": "1F689",
+			"native": "🚉",
+			"imagePosition": [61.01694915254237, 27.11864406779661],
+			"unified": "1F689"
 		},
 		"1F68A": {
-			"unified": "1F68A",
-			"imagePosition": ["61.00", "29.33"]
+			"name": "1F68A",
+			"native": "🚊",
+			"imagePosition": [61.01694915254237, 28.813559322033896],
+			"unified": "1F68A"
 		},
 		"1F68B": {
-			"unified": "1F68B",
-			"imagePosition": ["61.00", "31.00"]
+			"name": "1F68B",
+			"native": "🚋",
+			"imagePosition": [61.01694915254237, 30.508474576271183],
+			"unified": "1F68B"
 		},
 		"1F68C": {
-			"unified": "1F68C",
-			"imagePosition": ["61.00", "32.67"]
+			"name": "1F68C",
+			"native": "🚌",
+			"imagePosition": [61.01694915254237, 32.20338983050847],
+			"unified": "1F68C"
 		},
 		"1F68D": {
-			"unified": "1F68D",
-			"imagePosition": ["61.00", "34.33"]
+			"name": "1F68D",
+			"native": "🚍",
+			"imagePosition": [61.01694915254237, 33.89830508474576],
+			"unified": "1F68D"
 		},
 		"1F68E": {
-			"unified": "1F68E",
-			"imagePosition": ["61.00", "36.00"]
+			"name": "1F68E",
+			"native": "🚎",
+			"imagePosition": [61.01694915254237, 35.59322033898305],
+			"unified": "1F68E"
 		},
 		"1F68F": {
-			"unified": "1F68F",
-			"imagePosition": ["61.00", "37.67"]
+			"name": "1F68F",
+			"native": "🚏",
+			"imagePosition": [61.01694915254237, 37.28813559322034],
+			"unified": "1F68F"
 		},
 		"1F690": {
-			"unified": "1F690",
-			"imagePosition": ["61.00", "39.33"]
+			"name": "1F690",
+			"native": "🚐",
+			"imagePosition": [61.01694915254237, 38.983050847457626],
+			"unified": "1F690"
 		},
 		"1F691": {
-			"unified": "1F691",
-			"imagePosition": ["61.00", "41.00"]
+			"name": "1F691",
+			"native": "🚑",
+			"imagePosition": [61.01694915254237, 40.67796610169491],
+			"unified": "1F691"
 		},
 		"1F692": {
-			"unified": "1F692",
-			"imagePosition": ["61.00", "42.67"]
+			"name": "1F692",
+			"native": "🚒",
+			"imagePosition": [61.01694915254237, 42.3728813559322],
+			"unified": "1F692"
 		},
 		"1F693": {
-			"unified": "1F693",
-			"imagePosition": ["61.00", "44.33"]
+			"name": "1F693",
+			"native": "🚓",
+			"imagePosition": [61.01694915254237, 44.06779661016949],
+			"unified": "1F693"
 		},
 		"1F694": {
-			"unified": "1F694",
-			"imagePosition": ["61.00", "46.00"]
+			"name": "1F694",
+			"native": "🚔",
+			"imagePosition": [61.01694915254237, 45.762711864406775],
+			"unified": "1F694"
 		},
 		"1F695": {
-			"unified": "1F695",
-			"imagePosition": ["61.00", "47.67"]
+			"name": "1F695",
+			"native": "🚕",
+			"imagePosition": [61.01694915254237, 47.45762711864407],
+			"unified": "1F695"
 		},
 		"1F696": {
-			"unified": "1F696",
-			"imagePosition": ["61.00", "49.33"]
+			"name": "1F696",
+			"native": "🚖",
+			"imagePosition": [61.01694915254237, 49.152542372881356],
+			"unified": "1F696"
 		},
 		"1F697": {
-			"unified": "1F697",
-			"imagePosition": ["61.00", "51.00"]
+			"name": "1F697",
+			"native": "🚗",
+			"imagePosition": [61.01694915254237, 50.847457627118644],
+			"unified": "1F697"
 		},
 		"1F698": {
-			"unified": "1F698",
-			"imagePosition": ["61.00", "52.67"]
+			"name": "1F698",
+			"native": "🚘",
+			"imagePosition": [61.01694915254237, 52.54237288135593],
+			"unified": "1F698"
 		},
 		"1F699": {
-			"unified": "1F699",
-			"imagePosition": ["61.00", "54.33"]
+			"name": "1F699",
+			"native": "🚙",
+			"imagePosition": [61.01694915254237, 54.23728813559322],
+			"unified": "1F699"
 		},
 		"1F69A": {
-			"unified": "1F69A",
-			"imagePosition": ["61.00", "56.00"]
+			"name": "1F69A",
+			"native": "🚚",
+			"imagePosition": [61.01694915254237, 55.932203389830505],
+			"unified": "1F69A"
 		},
 		"1F69B": {
-			"unified": "1F69B",
-			"imagePosition": ["61.00", "57.67"]
+			"name": "1F69B",
+			"native": "🚛",
+			"imagePosition": [61.01694915254237, 57.62711864406779],
+			"unified": "1F69B"
 		},
 		"1F69C": {
-			"unified": "1F69C",
-			"imagePosition": ["61.00", "59.33"]
+			"name": "1F69C",
+			"native": "🚜",
+			"imagePosition": [61.01694915254237, 59.32203389830508],
+			"unified": "1F69C"
 		},
 		"1F69D": {
-			"unified": "1F69D",
-			"imagePosition": ["61.00", "61.00"]
+			"name": "1F69D",
+			"native": "🚝",
+			"imagePosition": [61.01694915254237, 61.01694915254237],
+			"unified": "1F69D"
 		},
 		"1F69E": {
-			"unified": "1F69E",
-			"imagePosition": ["61.00", "62.67"]
+			"name": "1F69E",
+			"native": "🚞",
+			"imagePosition": [61.01694915254237, 62.71186440677966],
+			"unified": "1F69E"
 		},
 		"1F69F": {
-			"unified": "1F69F",
-			"imagePosition": ["61.00", "64.33"]
+			"name": "1F69F",
+			"native": "🚟",
+			"imagePosition": [61.01694915254237, 64.40677966101694],
+			"unified": "1F69F"
 		},
 		"1F6A0": {
-			"unified": "1F6A0",
-			"imagePosition": ["61.00", "66.00"]
+			"name": "1F6A0",
+			"native": "🚠",
+			"imagePosition": [61.01694915254237, 66.10169491525423],
+			"unified": "1F6A0"
 		},
 		"1F6A1": {
-			"unified": "1F6A1",
-			"imagePosition": ["61.00", "67.67"]
+			"name": "1F6A1",
+			"native": "🚡",
+			"imagePosition": [61.01694915254237, 67.79661016949152],
+			"unified": "1F6A1"
 		},
 		"1F6A2": {
-			"unified": "1F6A2",
-			"imagePosition": ["61.00", "69.33"]
+			"name": "1F6A2",
+			"native": "🚢",
+			"imagePosition": [61.01694915254237, 69.49152542372882],
+			"unified": "1F6A2"
 		},
 		"1F6A4": {
-			"unified": "1F6A4",
-			"imagePosition": ["62.67", "1.00"]
+			"name": "1F6A4",
+			"native": "🚤",
+			"imagePosition": [62.71186440677966, 0],
+			"unified": "1F6A4"
 		},
 		"1F6A5": {
-			"unified": "1F6A5",
-			"imagePosition": ["62.67", "2.67"]
+			"name": "1F6A5",
+			"native": "🚥",
+			"imagePosition": [62.71186440677966, 1.694915254237288],
+			"unified": "1F6A5"
 		},
 		"1F6A6": {
-			"unified": "1F6A6",
-			"imagePosition": ["62.67", "4.33"]
+			"name": "1F6A6",
+			"native": "🚦",
+			"imagePosition": [62.71186440677966, 3.389830508474576],
+			"unified": "1F6A6"
 		},
 		"1F6A7": {
-			"unified": "1F6A7",
-			"imagePosition": ["62.67", "6.00"]
+			"name": "1F6A7",
+			"native": "🚧",
+			"imagePosition": [62.71186440677966, 5.084745762711864],
+			"unified": "1F6A7"
 		},
 		"1F6A8": {
-			"unified": "1F6A8",
-			"imagePosition": ["62.67", "7.67"]
+			"name": "1F6A8",
+			"native": "🚨",
+			"imagePosition": [62.71186440677966, 6.779661016949152],
+			"unified": "1F6A8"
 		},
 		"1F6B2": {
-			"unified": "1F6B2",
-			"imagePosition": ["62.67", "24.33"]
+			"name": "1F6B2",
+			"native": "🚲",
+			"imagePosition": [62.71186440677966, 23.728813559322035],
+			"unified": "1F6B2"
 		},
 		"1F6CE-FE0F": {
-			"unified": "1F6CE-FE0F",
-			"imagePosition": ["64.33", "64.33"]
+			"name": "1F6CE-FE0F",
+			"native": "🛎️",
+			"imagePosition": [64.40677966101694, 64.40677966101694],
+			"unified": "1F6CE-FE0F"
 		},
 		"1F6D1": {
-			"unified": "1F6D1",
-			"imagePosition": ["64.33", "69.33"]
+			"name": "1F6D1",
+			"native": "🛑",
+			"imagePosition": [64.40677966101694, 69.49152542372882],
+			"unified": "1F6D1"
 		},
 		"1F6D5": {
-			"unified": "1F6D5",
-			"imagePosition": ["64.33", "72.67"]
+			"name": "1F6D5",
+			"native": "🛕",
+			"imagePosition": [64.40677966101694, 72.88135593220339],
+			"unified": "1F6D5"
 		},
 		"1F6D6": {
-			"unified": "1F6D6",
-			"imagePosition": ["64.33", "74.33"]
+			"name": "1F6D6",
+			"native": "🛖",
+			"imagePosition": [64.40677966101694, 74.57627118644068],
+			"unified": "1F6D6"
 		},
 		"1F6E2-FE0F": {
-			"unified": "1F6E2-FE0F",
-			"imagePosition": ["64.33", "81.00"]
+			"name": "1F6E2-FE0F",
+			"native": "🛢️",
+			"imagePosition": [64.40677966101694, 81.35593220338983],
+			"unified": "1F6E2-FE0F"
 		},
 		"1F6E3-FE0F": {
-			"unified": "1F6E3-FE0F",
-			"imagePosition": ["64.33", "82.67"]
+			"name": "1F6E3-FE0F",
+			"native": "🛣️",
+			"imagePosition": [64.40677966101694, 83.05084745762711],
+			"unified": "1F6E3-FE0F"
 		},
 		"1F6E4-FE0F": {
-			"unified": "1F6E4-FE0F",
-			"imagePosition": ["64.33", "84.33"]
+			"name": "1F6E4-FE0F",
+			"native": "🛤️",
+			"imagePosition": [64.40677966101694, 84.7457627118644],
+			"unified": "1F6E4-FE0F"
 		},
 		"1F6E5-FE0F": {
-			"unified": "1F6E5-FE0F",
-			"imagePosition": ["64.33", "86.00"]
+			"name": "1F6E5-FE0F",
+			"native": "🛥️",
+			"imagePosition": [64.40677966101694, 86.44067796610169],
+			"unified": "1F6E5-FE0F"
 		},
 		"1F6E9-FE0F": {
-			"unified": "1F6E9-FE0F",
-			"imagePosition": ["64.33", "87.67"]
+			"name": "1F6E9-FE0F",
+			"native": "🛩️",
+			"imagePosition": [64.40677966101694, 88.13559322033898],
+			"unified": "1F6E9-FE0F"
 		},
 		"1F6EB": {
-			"unified": "1F6EB",
-			"imagePosition": ["64.33", "89.33"]
+			"name": "1F6EB",
+			"native": "🛫",
+			"imagePosition": [64.40677966101694, 89.83050847457626],
+			"unified": "1F6EB"
 		},
 		"1F6EC": {
-			"unified": "1F6EC",
-			"imagePosition": ["64.33", "91.00"]
+			"name": "1F6EC",
+			"native": "🛬",
+			"imagePosition": [64.40677966101694, 91.52542372881355],
+			"unified": "1F6EC"
 		},
 		"1F6F0-FE0F": {
-			"unified": "1F6F0-FE0F",
-			"imagePosition": ["64.33", "92.67"]
+			"name": "1F6F0-FE0F",
+			"native": "🛰️",
+			"imagePosition": [64.40677966101694, 93.22033898305084],
+			"unified": "1F6F0-FE0F"
 		},
 		"1F6F3-FE0F": {
-			"unified": "1F6F3-FE0F",
-			"imagePosition": ["64.33", "94.33"]
+			"name": "1F6F3-FE0F",
+			"native": "🛳️",
+			"imagePosition": [64.40677966101694, 94.91525423728814],
+			"unified": "1F6F3-FE0F"
 		},
 		"1F6F4": {
-			"unified": "1F6F4",
-			"imagePosition": ["64.33", "96.00"]
+			"name": "1F6F4",
+			"native": "🛴",
+			"imagePosition": [64.40677966101694, 96.61016949152543],
+			"unified": "1F6F4"
 		},
 		"1F6F5": {
-			"unified": "1F6F5",
-			"imagePosition": ["64.33", "97.67"]
+			"name": "1F6F5",
+			"native": "🛵",
+			"imagePosition": [64.40677966101694, 98.30508474576271],
+			"unified": "1F6F5"
 		},
 		"1F6F6": {
-			"unified": "1F6F6",
-			"imagePosition": ["64.33", "99.33"]
+			"name": "1F6F6",
+			"native": "🛶",
+			"imagePosition": [64.40677966101694, 100],
+			"unified": "1F6F6"
 		},
 		"1F6F8": {
-			"unified": "1F6F8",
-			"imagePosition": ["66.00", "2.67"]
+			"name": "1F6F8",
+			"native": "🛸",
+			"imagePosition": [66.10169491525423, 1.694915254237288],
+			"unified": "1F6F8"
 		},
 		"1F6F9": {
-			"unified": "1F6F9",
-			"imagePosition": ["66.00", "4.33"]
+			"name": "1F6F9",
+			"native": "🛹",
+			"imagePosition": [66.10169491525423, 3.389830508474576],
+			"unified": "1F6F9"
 		},
 		"1F6FA": {
-			"unified": "1F6FA",
-			"imagePosition": ["66.00", "6.00"]
+			"name": "1F6FA",
+			"native": "🛺",
+			"imagePosition": [66.10169491525423, 5.084745762711864],
+			"unified": "1F6FA"
 		},
 		"1F6FB": {
-			"unified": "1F6FB",
-			"imagePosition": ["66.00", "7.67"]
+			"name": "1F6FB",
+			"native": "🛻",
+			"imagePosition": [66.10169491525423, 6.779661016949152],
+			"unified": "1F6FB"
 		},
 		"1F6FC": {
-			"unified": "1F6FC",
-			"imagePosition": ["66.00", "9.33"]
+			"name": "1F6FC",
+			"native": "🛼",
+			"imagePosition": [66.10169491525423, 8.47457627118644],
+			"unified": "1F6FC"
 		},
 		"1F9BC": {
-			"unified": "1F9BC",
-			"imagePosition": ["77.67", "29.33"]
+			"name": "1F9BC",
+			"native": "🦼",
+			"imagePosition": [77.96610169491525, 28.813559322033896],
+			"unified": "1F9BC"
 		},
 		"1F9BD": {
-			"unified": "1F9BD",
-			"imagePosition": ["77.67", "31.00"]
+			"name": "1F9BD",
+			"native": "🦽",
+			"imagePosition": [77.96610169491525, 30.508474576271183],
+			"unified": "1F9BD"
 		},
 		"1F9ED": {
-			"unified": "1F9ED",
-			"imagePosition": ["89.33", "82.67"]
+			"name": "1F9ED",
+			"native": "🧭",
+			"imagePosition": [89.83050847457626, 83.05084745762711],
+			"unified": "1F9ED"
 		},
 		"1F9F1": {
-			"unified": "1F9F1",
-			"imagePosition": ["89.33", "89.33"]
+			"name": "1F9F1",
+			"native": "🧱",
+			"imagePosition": [89.83050847457626, 89.83050847457626],
+			"unified": "1F9F1"
 		},
 		"1F9F3": {
-			"unified": "1F9F3",
-			"imagePosition": ["89.33", "92.67"]
+			"name": "1F9F3",
+			"native": "🧳",
+			"imagePosition": [89.83050847457626, 93.22033898305084],
+			"unified": "1F9F3"
 		},
 		"1FA82": {
-			"unified": "1FA82",
-			"imagePosition": ["91.00", "31.00"]
+			"name": "1FA82",
+			"native": "🪂",
+			"imagePosition": [91.52542372881355, 30.508474576271183],
+			"unified": "1FA82"
 		},
 		"1FA90": {
-			"unified": "1FA90",
-			"imagePosition": ["91.00", "39.33"]
+			"name": "1FA90",
+			"native": "🪐",
+			"imagePosition": [91.52542372881355, 38.983050847457626],
+			"unified": "1FA90"
 		},
 		"1FAA8": {
-			"unified": "1FAA8",
-			"imagePosition": ["91.00", "79.33"]
+			"name": "1FAA8",
+			"native": "🪨",
+			"imagePosition": [91.52542372881355, 79.66101694915254],
+			"unified": "1FAA8"
 		},
 		"1FAB5": {
-			"unified": "1FAB5",
-			"imagePosition": ["91.00", "89.33"]
+			"name": "1FAB5",
+			"native": "🪵",
+			"imagePosition": [91.52542372881355, 89.83050847457626],
+			"unified": "1FAB5"
 		},
 		"231A": {
-			"unified": "231A",
-			"imagePosition": ["92.67", "29.33"]
+			"name": "231A",
+			"native": "⌚",
+			"imagePosition": [93.22033898305084, 28.813559322033896],
+			"unified": "231A"
 		},
 		"231B": {
-			"unified": "231B",
-			"imagePosition": ["92.67", "31.00"]
+			"name": "231B",
+			"native": "⌛",
+			"imagePosition": [93.22033898305084, 30.508474576271183],
+			"unified": "231B"
 		},
 		"23F0": {
-			"unified": "23F0",
-			"imagePosition": ["92.67", "47.67"]
+			"name": "23F0",
+			"native": "⏰",
+			"imagePosition": [93.22033898305084, 47.45762711864407],
+			"unified": "23F0"
 		},
 		"23F1-FE0F": {
-			"unified": "23F1-FE0F",
-			"imagePosition": ["92.67", "49.33"]
+			"name": "23F1-FE0F",
+			"native": "⏱️",
+			"imagePosition": [93.22033898305084, 49.152542372881356],
+			"unified": "23F1-FE0F"
 		},
 		"23F2-FE0F": {
-			"unified": "23F2-FE0F",
-			"imagePosition": ["92.67", "51.00"]
+			"name": "23F2-FE0F",
+			"native": "⏲️",
+			"imagePosition": [93.22033898305084, 50.847457627118644],
+			"unified": "23F2-FE0F"
 		},
 		"23F3": {
-			"unified": "23F3",
-			"imagePosition": ["92.67", "52.67"]
+			"name": "23F3",
+			"native": "⏳",
+			"imagePosition": [93.22033898305084, 52.54237288135593],
+			"unified": "23F3"
 		},
 		"2600-FE0F": {
-			"unified": "2600-FE0F",
-			"imagePosition": ["92.67", "74.33"]
+			"name": "2600-FE0F",
+			"native": "☀️",
+			"imagePosition": [93.22033898305084, 74.57627118644068],
+			"unified": "2600-FE0F"
 		},
 		"2601-FE0F": {
-			"unified": "2601-FE0F",
-			"imagePosition": ["92.67", "76.00"]
+			"name": "2601-FE0F",
+			"native": "☁️",
+			"imagePosition": [93.22033898305084, 76.27118644067797],
+			"unified": "2601-FE0F"
 		},
 		"2602-FE0F": {
-			"unified": "2602-FE0F",
-			"imagePosition": ["92.67", "77.67"]
+			"name": "2602-FE0F",
+			"native": "☂️",
+			"imagePosition": [93.22033898305084, 77.96610169491525],
+			"unified": "2602-FE0F"
 		},
 		"2603-FE0F": {
-			"unified": "2603-FE0F",
-			"imagePosition": ["92.67", "79.33"]
+			"name": "2603-FE0F",
+			"native": "☃️",
+			"imagePosition": [93.22033898305084, 79.66101694915254],
+			"unified": "2603-FE0F"
 		},
 		"2604-FE0F": {
-			"unified": "2604-FE0F",
-			"imagePosition": ["92.67", "81.00"]
+			"name": "2604-FE0F",
+			"native": "☄️",
+			"imagePosition": [93.22033898305084, 81.35593220338983],
+			"unified": "2604-FE0F"
 		},
 		"2668-FE0F": {
-			"unified": "2668-FE0F",
-			"imagePosition": ["94.33", "49.33"]
+			"name": "2668-FE0F",
+			"native": "♨️",
+			"imagePosition": [94.91525423728814, 49.152542372881356],
+			"unified": "2668-FE0F"
 		},
 		"26A1": {
-			"unified": "26A1",
-			"imagePosition": ["94.33", "72.67"]
+			"name": "26A1",
+			"native": "⚡",
+			"imagePosition": [94.91525423728814, 72.88135593220339],
+			"unified": "26A1"
 		},
 		"26C4": {
-			"unified": "26C4",
-			"imagePosition": ["94.33", "86.00"]
+			"name": "26C4",
+			"native": "⛄",
+			"imagePosition": [94.91525423728814, 86.44067796610169],
+			"unified": "26C4"
 		},
 		"26C5": {
-			"unified": "26C5",
-			"imagePosition": ["94.33", "87.67"]
+			"name": "26C5",
+			"native": "⛅",
+			"imagePosition": [94.91525423728814, 88.13559322033898],
+			"unified": "26C5"
 		},
 		"26C8-FE0F": {
-			"unified": "26C8-FE0F",
-			"imagePosition": ["94.33", "89.33"]
+			"name": "26C8-FE0F",
+			"native": "⛈️",
+			"imagePosition": [94.91525423728814, 89.83050847457626],
+			"unified": "26C8-FE0F"
 		},
 		"26E9-FE0F": {
-			"unified": "26E9-FE0F",
-			"imagePosition": ["94.33", "99.33"]
+			"name": "26E9-FE0F",
+			"native": "⛩️",
+			"imagePosition": [94.91525423728814, 100],
+			"unified": "26E9-FE0F"
 		},
 		"26EA": {
-			"unified": "26EA",
-			"imagePosition": ["96.00", "1.00"]
+			"name": "26EA",
+			"native": "⛪",
+			"imagePosition": [96.61016949152543, 0],
+			"unified": "26EA"
 		},
 		"26F0-FE0F": {
-			"unified": "26F0-FE0F",
-			"imagePosition": ["96.00", "2.67"]
+			"name": "26F0-FE0F",
+			"native": "⛰️",
+			"imagePosition": [96.61016949152543, 1.694915254237288],
+			"unified": "26F0-FE0F"
 		},
 		"26F1-FE0F": {
-			"unified": "26F1-FE0F",
-			"imagePosition": ["96.00", "4.33"]
+			"name": "26F1-FE0F",
+			"native": "⛱️",
+			"imagePosition": [96.61016949152543, 3.389830508474576],
+			"unified": "26F1-FE0F"
 		},
 		"26F2": {
-			"unified": "26F2",
-			"imagePosition": ["96.00", "6.00"]
+			"name": "26F2",
+			"native": "⛲",
+			"imagePosition": [96.61016949152543, 5.084745762711864],
+			"unified": "26F2"
 		},
 		"26F4-FE0F": {
-			"unified": "26F4-FE0F",
-			"imagePosition": ["96.00", "9.33"]
+			"name": "26F4-FE0F",
+			"native": "⛴️",
+			"imagePosition": [96.61016949152543, 8.47457627118644],
+			"unified": "26F4-FE0F"
 		},
 		"26F5": {
-			"unified": "26F5",
-			"imagePosition": ["96.00", "11.00"]
+			"name": "26F5",
+			"native": "⛵",
+			"imagePosition": [96.61016949152543, 10.169491525423728],
+			"unified": "26F5"
 		},
 		"26FA": {
-			"unified": "26FA",
-			"imagePosition": ["96.00", "46.00"]
+			"name": "26FA",
+			"native": "⛺",
+			"imagePosition": [96.61016949152543, 45.762711864406775],
+			"unified": "26FA"
 		},
 		"26FD": {
-			"unified": "26FD",
-			"imagePosition": ["96.00", "47.67"]
+			"name": "26FD",
+			"native": "⛽",
+			"imagePosition": [96.61016949152543, 47.45762711864407],
+			"unified": "26FD"
 		},
 		"2708-FE0F": {
-			"unified": "2708-FE0F",
-			"imagePosition": ["96.00", "52.67"]
+			"name": "2708-FE0F",
+			"native": "✈️",
+			"imagePosition": [96.61016949152543, 52.54237288135593],
+			"unified": "2708-FE0F"
 		},
 		"2744-FE0F": {
-			"unified": "2744-FE0F",
-			"imagePosition": ["97.67", "11.00"]
+			"name": "2744-FE0F",
+			"native": "❄️",
+			"imagePosition": [98.30508474576271, 10.169491525423728],
+			"unified": "2744-FE0F"
 		},
 		"2B50": {
-			"unified": "2B50",
-			"imagePosition": ["97.67", "52.67"]
+			"name": "2B50",
+			"native": "⭐",
+			"imagePosition": [98.30508474576271, 52.54237288135593],
+			"unified": "2B50"
 		}
 	}
 }

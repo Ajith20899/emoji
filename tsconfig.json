@@ -1,26 +1,63 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": [
-    "src"
-  ]
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es6",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "noEmit": true,
+        "jsx": "react",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "baseUrl": "./src",
+        "paths": {
+            "@pages/*": [
+                "./pages/*"
+            ],
+            "@utils/*": [
+                "./utils/*"
+            ],
+            "@components/*": [
+                "./components/*"
+            ],
+            "@library/*": [
+                "./components/library/*"
+            ],
+            "@images/*": [
+                "./assets/images/*"
+            ],
+            "@icons/*": [
+                "./assets/icons/*"
+            ],
+            "@services/*": [
+                "./services/*"
+            ],
+            "@httpRequests/*": [
+                "./services/http_requests/*"
+            ],
+            "@constants/*": [
+                "./utils/constants/*"
+            ],
+            "@redux/*": [
+                "./redux/*"
+            ],
+            "@fixtures/*": [
+                "./fixtures/*"
+            ],
+        },
+        "types": []
+    }
 }

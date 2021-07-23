@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react';
-import AppleEmoji from '../../../../assets/appleEmoji.png';
+import React, { useEffect, useState } from 'react';
 import * as Styles from '../../styles';
 
-export default function Activities() {
+export default function Activities({ image }) {
 	const [list, setList] = useState({});
 
 	useEffect(() => {
@@ -18,18 +17,18 @@ export default function Activities() {
 	return (
 		<Styles.EmojiWrapper>
 			{Object.values(list)?.map((data: any, index) => {
-				console.log('data ', list);
-
 				return (
 					<Styles.EmojiBlock
 						key={index}
 						aria-label={data.unified}
-						bgImage={`url("${AppleEmoji}")`}
 						onClick={() =>
 							console.log(data.unified, data.imagePosition)
-						}
-						position={`${data.imagePosition?.[0]}% ${data.imagePosition?.[1]}%`}>
-						<span></span>
+						}>
+						<Styles.EmojiChild
+							style={{
+								backgroundImage: `url("${image}")`,
+								backgroundPosition: `${data.imagePosition?.[0]}% ${data.imagePosition?.[1]}%`,
+							}}></Styles.EmojiChild>
 					</Styles.EmojiBlock>
 				);
 			})}

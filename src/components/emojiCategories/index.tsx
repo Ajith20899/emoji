@@ -1,3 +1,5 @@
+import React from 'react';
+import AppleEmoji from '../../assets/appleEmoji.png';
 import { lazy, Suspense } from 'react';
 
 const Activities = lazy(() => import('./components/activities'));
@@ -7,7 +9,6 @@ const FoodAndDrink = lazy(() => import('./components/foodAndDrink'));
 const PeopleAndBody = lazy(() => import('./components/peopleAndBody'));
 const RecentlyUsed = lazy(() => import('./components/recentlyused'));
 const SmileysAndEmotion = lazy(() => import('./components/smileysAndEmotion'));
-const Component = lazy(() => import('./components/component'));
 const Symbols = lazy(() => import('./components/symbols'));
 const TravelAndPlaces = lazy(() => import('./components/travelAndPlaces'));
 
@@ -15,84 +16,75 @@ export function EmojiCategories(props: any) {
 	const { selectedCategory } = props;
 
 	const categoriesHandler = () => {
-		console.log('enter ', selectedCategory);
-
 		let x: JSX.Element;
 		switch (selectedCategory) {
 			case 'recentlyUsed':
 				x = (
 					<Suspense fallback>
-						<RecentlyUsed />
+						<RecentlyUsed image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'activities':
 				x = (
 					<Suspense fallback>
-						<Activities />
+						<Activities image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'animalsAndNature':
 				x = (
 					<Suspense fallback>
-						<AnimalsAndNature />
-					</Suspense>
-				);
-				break;
-			case 'component':
-				x = (
-					<Suspense fallback>
-						<Component />
+						<AnimalsAndNature image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'flags':
 				x = (
 					<Suspense fallback>
-						<Flags />
+						<Flags image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'foodAndDrink':
 				x = (
 					<Suspense fallback>
-						<FoodAndDrink />
+						<FoodAndDrink image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'peopleAndBody':
 				x = (
 					<Suspense fallback>
-						<PeopleAndBody />
+						<PeopleAndBody image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'smileysAndEmotion':
 				x = (
 					<Suspense fallback>
-						<SmileysAndEmotion />
+						<SmileysAndEmotion image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'symbols':
 				x = (
 					<Suspense fallback>
-						<Symbols />
+						<Symbols image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			case 'travelAndPlaces':
 				x = (
 					<Suspense fallback>
-						<TravelAndPlaces />
+						<TravelAndPlaces image={AppleEmoji} />
 					</Suspense>
 				);
 				break;
 			default:
 				x = (
 					<Suspense fallback>
-						<RecentlyUsed />
+						<RecentlyUsed image={AppleEmoji} />
 					</Suspense>
 				);
 		}

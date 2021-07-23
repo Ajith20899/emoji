@@ -9,19 +9,17 @@ export const EmojiWrapper = styled.div`
 		font-size: 14px;
 	}
 `;
-export const EmojiBlock = styled.span<{ position: string; bgImage: string }>`
+export const EmojiBlock = styled.span`
 	padding: 6px;
 	border-radius: 20px;
 	display: inline-block;
 	&:hover {
 		background: lightgrey;
 	}
-	& span {
-		display: block;
-		width: 25px;
-		height: 25px;
-		background-size: 5800% 5800%;
-		background-image: ${(p: { bgImage: any }) => p.bgImage};
-		background-position: ${(p: { position: any }) => p.position};
-	}
+`;
+export const EmojiChild = styled.span`
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-size: 5900% 5900%;
 `;
