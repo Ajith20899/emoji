@@ -107,6 +107,8 @@ interface MentionedListI {
 	value: string;
 }
 
+let startPosition = 0;
+
 export function EmojiPicker() {
 	// state
 	const [selectedCategory, setSelectedCategory] = useState('');
@@ -115,8 +117,6 @@ export function EmojiPicker() {
 		'@ajith': true,
 	});
 	const [currentValue, setCurrentValue] = useState('');
-
-	let startPosition = 0;
 
 	let rx = /(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/gi;
 
@@ -142,39 +142,51 @@ export function EmojiPicker() {
 		let isMention = false;
 
 		function changeHandler(e: any) {
-			let node = document.getSelection()?.anchorNode;
-			let child = (node?.nodeType === 3 ? node.parentNode : node) as any;
+			setTimeout(() => {
+				let node = document.getSelection()?.anchorNode;
+				let child = (node?.nodeType === 3
+					? node.parentNode
+					: node) as any;
 
-			if (e.key === '@' || e.key === '#') {
-				isMention = e.key === '@' ? true : false;
-				filter = e.key === '@' ? userList : groupList;
-				startPosition = getCaretPosition(textarea);
-			}
+				if (e.key === '@' || e.key === '#') {
+					isMention = e.key === '@' ? true : false;
+					// filter = e.key === '@' ? userList : groupList;
+					startPosition = getCaretPosition(textarea);
+				}
 
-			let subtractValue = textarea?.textContent?.substring(
-				startPosition,
-				getCaretPosition(textarea),
-			);
-			filter = userList.filter((d) => {
-				console.log('value ', d.value, subtractValue?.substring(1));
-				return d.value
-					.toLowerCase()
-					.includes(
-						(subtractValue?.substring(1) || '').toLowerCase(),
-					);
-			});
+				let text = textarea?.textContent || textarea?.innerText;
+				let value = (text || '').substring(
+					startPosition - 1,
+					getCaretPosition(textarea),
+				);
 
-			setList(filter);
+				if (value[0] === '@') {
+					filter = userList?.filter((d) => {
+						console.log(
+							'd ',
+							d.value
+								.toLowerCase()
+								.includes(value.substring(1).toLowerCase()),
+						);
+						return d.value
+							.toLowerCase()
+							.includes(value.substring(1).toLowerCase());
+					});
+					setList(filter);
+				} else {
+					setList([]);
+				}
 
-			if (child?.nodeName.toLocaleLowerCase() === 'span') {
-				let reg = /^[-@.\/#&+\w\s]*$/;
+				// console.log('list ', filter);
 
-				setTimeout(() => {
+				if (child?.nodeName.toLocaleLowerCase() === 'span') {
+					let reg = /^[-@.\/#&+\w\s]*$/;
+
 					if (e.key === 'Backspace') {
 						textarea?.removeChild(child);
 					}
-				}, 10);
-			}
+				}
+			}, 10);
 		}
 
 		textarea?.addEventListener('keydown', changeHandler);
@@ -275,7 +287,7 @@ export function EmojiPicker() {
 	}
 
 	function pasteHtmlAtCaret(value: string) {
-		var html = `<span class="usernameReplacement">${value}</span>&nbsp;`;
+		var html = `<span class="usernameReplacement">@${value}</span>&nbsp;`;
 		var textarea = document.getElementById('textarea');
 		var sel, range;
 		try {
@@ -304,7 +316,6 @@ export function EmojiPicker() {
 							range = range.cloneRange();
 							range.setStartAfter(lastNode);
 							range.collapse(false);
-							console.log('lastNode ', range);
 							sel.removeAllRanges();
 							sel.addRange(range);
 							textarea.focus();
