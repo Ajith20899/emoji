@@ -1,7 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import EmojiContext from '@components/emojiCategories/context';
 import * as Styles from '../../styles';
 
 export default function Activities({ image }) {
+	// context
+	const { selectedEmoji, setSelectedEmoji } = useContext(EmojiContext);
+
 	const [list, setList] = useState({});
 
 	useEffect(() => {
@@ -21,9 +25,10 @@ export default function Activities({ image }) {
 					<Styles.EmojiBlock
 						key={index}
 						aria-label={data.unified}
-						onClick={() =>
-							console.log(data.unified, data.imagePosition)
-						}>
+						onClick={() => {
+							setSelectedEmoji(data.native);
+							console.log(data.unified, data.imagePosition);
+						}}>
 						<Styles.EmojiChild
 							style={{
 								backgroundImage: `url("${image}")`,

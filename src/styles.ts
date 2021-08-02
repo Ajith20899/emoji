@@ -1,18 +1,25 @@
 import styled from 'styled-components';
 
 export const EmojiPickerWrapper = styled.div`
-	width: 300px;
+	width: 80%;
 	height: 300px;
 	padding: 10px;
+	display: flex;
+
+	& > div {
+		width: 100%;
+	}
 
 	& p {
 		font-size: 14px;
 	}
-	& span.image {
-		width: 24px;
-		height: 24px;
+	& img.emoji {
+		width: 20px;
+		height: 20px;
 		background-size: 5900% 5900%;
-		display: inline-block;
+		padding: 0px;
+		margin: 0px;
+		vertical-align: middle;
 	}
 `;
 export const HeaderWrapper = styled.div`
@@ -34,12 +41,12 @@ export const Textarea = styled.div`
 	height: 300px;
 	border: 1px solid;
 	padding: 10px;
+	// display: inline-block;
 
 	& > span {
-		display: inline-block;
+		// display: inline;
 	}
 	& span.usernameReplacement {
-		display: inline-block;
 		color: blue;
 	}
 `;
