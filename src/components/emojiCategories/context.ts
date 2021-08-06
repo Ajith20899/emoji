@@ -1,8 +1,7 @@
 import { createContext } from 'react';
 
 const EmojiContext = createContext<any>({
-	selectedEmoji: '',
-	setSelectedEmoji: () => {},
+	emojiHandler: (emoji: string) => {},
 });
 
 export default EmojiContext;

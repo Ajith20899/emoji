@@ -4,7 +4,7 @@ import * as Styles from '../../styles';
 
 export default function Activities({ image }) {
 	// context
-	const { selectedEmoji, setSelectedEmoji } = useContext(EmojiContext);
+	const { emojiHandler } = useContext(EmojiContext);
 
 	const [list, setList] = useState({});
 
@@ -25,10 +25,7 @@ export default function Activities({ image }) {
 					<Styles.EmojiBlock
 						key={index}
 						aria-label={data.unified}
-						onClick={() => {
-							setSelectedEmoji(data.native);
-							console.log(data.unified, data.imagePosition);
-						}}>
+						onClick={() => emojiHandler(data.native)}>
 						<Styles.EmojiChild
 							style={{
 								backgroundImage: `url("${image}")`,

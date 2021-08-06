@@ -21,6 +21,9 @@ export const EmojiPickerWrapper = styled.div`
 		margin: 0px;
 		vertical-align: middle;
 	}
+	& span.usernameReplacement {
+		color: blue;
+	}
 `;
 export const HeaderWrapper = styled.div`
 	display: flex;
@@ -45,8 +48,5 @@ export const Textarea = styled.div`
 
 	& > span {
 		// display: inline;
-	}
-	& span.usernameReplacement {
-		color: blue;
 	}
 `;

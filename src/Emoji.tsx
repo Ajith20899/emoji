@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Activity from './assets/activities.svg';
 import Animals from './assets/animals.svg';
 import Flag from './assets/flag.svg';
@@ -106,12 +106,12 @@ interface MentionedListI {
 	e: number;
 	value: string;
 }
-let startPosition = 0;
-let currentValue = '';
-let startPositionList = {};
-let isMention = false;
-let lastOutNode;
-let lastOutPosition;
+// let startPosition = 0;
+// let currentValue = '';
+// let startPositionList = {};
+// let isMention = false;
+// let lastOutNode;
+// let lastOutPosition;
 
 export function EmojiPicker() {
 	// state
@@ -123,27 +123,13 @@ export function EmojiPicker() {
 	});
 	const [message, setMessage] = useState('');
 	const [selectedEmoji, setSelectedEmoji] = useState('');
-	// const [HashList, setHashList] = useState({});
-
-	console.log('selecTed', selectedEmoji);
-
-	let rx = /(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/gi;
-
-	let x: any = TestingData?.replaceAll(rx, (a) => {
-		let v = ActivitiesJson.activities[`${a}`];
-		return `
-            <span
-                class="image"
-                style='background-image: url(${AppleEmoji}); background-position: ${v?.imagePosition?.[0]}% ${v?.imagePosition?.[1]}%' 
-                data-plain-text='${a}'
-                alt='${a}'
-                draggable="false"
-            ></span>
-        `;
-	});
-
-	// let t = document.getElementById('testingData');
-	// t?.appendChild(x);
+	const [isTriggered, setIsTriggered] = useState(false);
+	const startPosition = useRef(0);
+	const currentValue = useRef('');
+	const startPositionList = useRef({});
+	const isMention = useRef(false);
+	const lastOutNode = useRef<Node | null>(null);
+	const lastOutPosition = useRef(0);
 
 	useEffect(() => {
 		let textarea = document.getElementById('textarea');
@@ -158,6 +144,44 @@ export function EmojiPicker() {
 	}, []);
 
 	useEffect(() => {
+		let rx = /\p{Emoji_Presentation}/gu;
+
+		let x: any = message?.replace(rx, (a) => {
+			let v = ActivitiesJson.activities[`${a}`];
+
+			console.log('receive ', a, v);
+
+			return `<img
+                        class="emoji"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
+                        draggable="false"
+                        aria-label="${a}"
+                        alt="${a}"
+                        style='background-image: url(${AppleEmoji}); background-position: ${v?.imagePosition?.[0]}% ${v?.imagePosition?.[1]}%'
+                    />`;
+		});
+		let lastReplace = x;
+
+		let combineArray = [
+			...mentionedList.userList,
+			...mentionedList.groupList,
+		];
+		for (let i = 0; i < combineArray?.length; i++) {
+			lastReplace = lastReplace.replaceAll(
+				combineArray[i],
+				(v: string) => {
+					if (v?.charAt(0) === '@' || v?.charAt(0) === '#') {
+						return `<span contentEditable="false" class="usernameReplacement" data-plain-text="${v}">${v}</span>`;
+					} else return v;
+				},
+			);
+		}
+
+		setMessage(lastReplace);
+		console.log('lastRepalce ', lastReplace);
+	}, [isTriggered]);
+
+	useEffect(() => {
 		let textarea = document.getElementById('textarea');
 		let filter = [] as any;
 		let lastCharacter = '';
@@ -166,19 +190,20 @@ export function EmojiPicker() {
 		function returnPosition() {
 			let max = 0;
 
-			Object.keys(startPositionList)?.forEach((key: string) => {
+			Object.keys(startPositionList.current)?.forEach((key: string) => {
 				if (parseInt(key) <= getCaretPosition(textarea)) {
 					if (parseInt(key) > max) {
 						max = parseInt(key);
-						startPosition = max;
+						startPosition.current = max;
 					} else {
-						startPosition = 0;
+						startPosition.current = 0;
 					}
 				}
 			});
 		}
 
 		function changeHandler(e: any) {
+			console.log('consider');
 			if (
 				e.type === 'paste' &&
 				textarea &&
@@ -199,7 +224,9 @@ export function EmojiPicker() {
 						getCaretPosition(textarea),
 					) || '';
 				if (lastCharacter === '@') {
-					delete startPositionList[getCaretPosition(textarea)];
+					delete startPositionList.current[
+						getCaretPosition(textarea)
+					];
 				}
 			}
 			setTimeout(() => {
@@ -207,17 +234,17 @@ export function EmojiPicker() {
 					pasteValue || textarea?.textContent || textarea?.innerText;
 				let value;
 				pasteValue = '';
-
-				lastOutNode = window.getSelection()?.focusNode;
-				lastOutPosition = window.getSelection()?.focusOffset;
-
-				console.log('out ', lastOutNode);
+				let sel = window.getSelection();
+				if (sel?.focusNode && sel?.focusOffset) {
+					lastOutNode.current = sel.focusNode;
+					lastOutPosition.current = sel.focusOffset;
+				}
 
 				if (text) {
-					startPositionList = {};
+					startPositionList.current = {};
 					for (let i = 0; i < text.length; i++) {
 						if (text[i] === '@' || text[i] === '#') {
-							startPositionList[i] = true;
+							startPositionList.current[i] = true;
 						}
 					}
 				}
@@ -227,15 +254,15 @@ export function EmojiPicker() {
 				let filterText;
 				if (text) {
 					value = text.substring(
-						startPosition,
+						startPosition.current,
 						getCaretPosition(textarea),
 					);
 					filterText = text.substring(
-						startPosition - 1,
+						startPosition.current - 1,
 						getCaretPosition(textarea),
 					);
 				}
-				currentValue = value;
+				currentValue.current = value;
 
 				if (
 					window.getSelection()?.focusNode?.nodeName === 'DIV' ||
@@ -247,29 +274,31 @@ export function EmojiPicker() {
 				}
 				let isAllow = false;
 				if (
-					(startPosition === 0 && value?.charAt(0) === '@') ||
+					(startPosition.current === 0 && value?.charAt(0) === '@') ||
 					(/\s/g.test(filterText?.charAt(0)) &&
 						filterText?.charAt(1) === '@')
 				) {
 					isAllow = true;
-					isMention = true;
+					isMention.current = true;
 				} else if (
-					(startPosition === 0 && value?.charAt(0) === '#') ||
+					(startPosition.current === 0 && value?.charAt(0) === '#') ||
 					(/\s/g.test(filterText?.charAt(0)) &&
 						filterText?.charAt(1) === '#')
 				) {
 					isAllow = true;
-					isMention = false;
+					isMention.current = false;
 				} else {
 					isAllow = false;
 				}
 
 				if (isAllow) {
-					filter = (isMention ? userList : groupList)?.filter((d) => {
-						return d.value
-							.toLowerCase()
-							.includes(value.substring(1).toLowerCase());
-					});
+					filter = (isMention.current ? userList : groupList)?.filter(
+						(d) => {
+							return d.value
+								.toLowerCase()
+								.includes(value.substring(1).toLowerCase());
+						},
+					);
 					setList(filter);
 					if (filter[0]?.value === value.substring(1)) {
 						pasteHtmlAtCaret(value.substring(1));
@@ -364,15 +393,16 @@ export function EmojiPicker() {
 		return false;
 	}
 
-	useEffect(() => {
+	const emojiHandler = (emoji: string) => {
 		var html;
 		var textarea = document.getElementById('textarea');
 		var sel, range;
-		let emoji = selectedEmoji;
 
 		if (!emoji) return;
+
 		try {
 			let getAppleEmoji = ActivitiesJson.activities[`${emoji}`];
+			console.log('getAppleEmoji', getAppleEmoji.native);
 			html = `<img
                         class="emoji"
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
@@ -388,6 +418,21 @@ export function EmojiPicker() {
 				if (elementContainsSelection(textarea) && textarea) {
 					if (sel.getRangeAt && sel.rangeCount) {
 						range = sel.getRangeAt(0);
+
+						if (lastOutNode.current) {
+							range.setStart(
+								lastOutNode.current,
+								lastOutPosition.current,
+							);
+						} else {
+							range.setStart(sel.focusNode, sel.focusOffset);
+						}
+
+						setTimeout(() => {
+							lastOutNode.current = sel.focusNode;
+							lastOutPosition.current = sel.focusOffset;
+						}, 10);
+
 						document.execCommand('insertHTML', false, html);
 						setList([]);
 					} else if (
@@ -404,14 +449,14 @@ export function EmojiPicker() {
 		} catch (err) {
 			console.log('err', err);
 		}
-	}, [selectedEmoji]);
+	};
 
 	function pasteHtmlAtCaret(value: string) {
 		var html;
 		var textarea = document.getElementById('textarea');
 		var sel, range;
 		try {
-			if (isMention) {
+			if (isMention.current) {
 				html = `<span contentEditable="false" class="usernameReplacement" data-plain-text="@${value}">@${value}</span>&nbsp;`;
 			} else {
 				html = `<span contentEditable="false" class="usernameReplacement" data-plain-text="#${value}">#${value}</span>&nbsp;`;
@@ -427,7 +472,7 @@ export function EmojiPicker() {
 							range.setStart(
 								sel?.anchorNode,
 								sel?.anchorNode?.textContent.length -
-									currentValue.length,
+									currentValue.current.length,
 							);
 							range.setEnd(
 								sel?.anchorNode,
@@ -436,18 +481,13 @@ export function EmojiPicker() {
 						} else {
 							range.setStart(
 								sel.anchorNode,
-								sel.focusOffset - currentValue?.length,
+								sel.focusOffset - currentValue.current?.length,
 							);
 							range.setEnd(sel?.anchorNode, sel.focusOffset);
 						}
 						document.execCommand('insertHTML', false, html);
-						console.log(
-							'click after ',
-							sel.focusNode,
-							sel.focusOffset,
-						);
-						lastOutNode = sel?.focusNode;
-						lastOutPosition = sel?.focusOffset;
+						lastOutNode.current = sel?.focusNode;
+						lastOutPosition.current = sel?.focusOffset;
 						setList([]);
 					} else if (
 						(document as any)?.selection &&
@@ -470,6 +510,9 @@ export function EmojiPicker() {
 
 	const sendHandler = () => {
 		let t = document.getElementById('textarea');
+		lastOutNode.current = null;
+		lastOutPosition.current = 0;
+		setIsTriggered(true);
 
 		if (t) {
 			let x: any[] = [];
@@ -507,8 +550,10 @@ export function EmojiPicker() {
 		}
 	};
 
+	console.log('message ', message, mentionedList);
+
 	return (
-		<EmojiContext.Provider value={{ selectedEmoji, setSelectedEmoji }}>
+		<EmojiContext.Provider value={{ emojiHandler }}>
 			<Styles.EmojiPickerWrapper>
 				<div>
 					<Header
@@ -541,18 +586,10 @@ export function EmojiPicker() {
 					)}
 					<button onClick={sendHandler}>send</button>
 
-					{mentionedList && (
-						<div>
-							{mentionedList?.groupList?.map((m) => (
-								<p>{m}</p>
-							))}
-							{mentionedList?.userList?.map((m) => (
-								<p>{m}</p>
-							))}
-						</div>
+					{message && (
+						<div
+							dangerouslySetInnerHTML={{ __html: message }}></div>
 					)}
-
-					{message && <p>{message}</p>}
 				</div>
 			</Styles.EmojiPickerWrapper>
 		</EmojiContext.Provider>
