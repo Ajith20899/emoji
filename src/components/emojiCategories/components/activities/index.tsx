@@ -9,7 +9,7 @@ export default function Activities({ image }) {
 	const [list, setList] = useState({});
 
 	useEffect(() => {
-		import('../../../../fixtures/emoji/Activities.json')
+		import('@fixtures/emoji/Activities.json')
 			.then((l) => {
 				setList(l.activities);
 			})

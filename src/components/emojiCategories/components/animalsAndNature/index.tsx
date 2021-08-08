@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import EmojiContext from '@components/emojiCategories/context';
 import * as Styles from '../../styles';
 
 export default function AnimalsAndNature({ image }) {
-	const [list, setList] = useState({});
+    const { emojiHandler } = useContext(EmojiContext);
+    
+    const [list, setList] = useState({});
 
 	useEffect(() => {
 		import('../../../../fixtures/emoji/Animals.json')
@@ -20,10 +23,9 @@ export default function AnimalsAndNature({ image }) {
 				return (
 					<Styles.EmojiBlock
 						key={index}
-						aria-label={data.unified}
-						onClick={() =>
-							console.log(data.unified, data.imagePosition)
-						}>
+						aria-label={data.native}
+                        onClick={() => emojiHandler(data.native)}
+                    >
 						<Styles.EmojiChild
 							style={{
 								backgroundImage: `url("${image}")`,

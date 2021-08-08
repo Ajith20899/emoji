@@ -12,10 +12,10 @@ import Header from './Header';
 import { EmojiCategories } from './components/emojiCategories';
 // import EmojiData from './fixtures/emoji/Emoji.json';
 import * as Styles from './styles';
-import { TestingData } from '@fixtures/testingData';
-import ActivitiesJson from '@fixtures/emoji/Activities.json';
+// import ActivitiesJson from '@fixtures/emoji/Activities.json';
 import AppleEmoji from './assets/appleEmoji.png';
 import EmojiContext from '@components/emojiCategories/context';
+import { EmojiList } from '@fixtures/emoji/EmojiList';
 
 const EmojiCategoriesList = [
 	{
@@ -113,6 +113,8 @@ interface MentionedListI {
 // let lastOutNode;
 // let lastOutPosition;
 
+var defaultValue = 'Ajith @ascasc 🎟️';
+
 export function EmojiPicker() {
 	// state
 	const [selectedCategory, setSelectedCategory] = useState('');
@@ -144,48 +146,104 @@ export function EmojiPicker() {
 	}, []);
 
 	useEffect(() => {
-		let rx = /\p{Emoji_Presentation}/gu;
+		var emojiByName = require('./fixtures/emoji/emoji.json');
+		var NON_SPACING_MARK = String.fromCharCode(65039); // 65039 - '️' - 0xFE0F;
+		var nonSpacingRegex = new RegExp(NON_SPACING_MARK, 'g');
 
-		let x: any = message?.replace(rx, (a) => {
-			let v = ActivitiesJson.activities[`${a}`];
+		var emojiByCode = Object.keys(emojiByName).reduce(function (h, k) {
+			h[stripNSB(emojiByName[k])] = k;
+			return h;
+		}, {});
 
-			console.log('receive ', a, v);
+		function stripNSB(code) {
+			return code.replace(nonSpacingRegex, '');
+		}
 
-			return `<img
+		function findByCode(code) {
+			var stripped = stripNSB(code);
+			var name = emojiByCode[stripped];
+
+			// lookup emoji to ensure the Variant Form is returned
+			return name ? { emoji: emojiByName[name], key: name } : undefined;
+		}
+		var trimSpaceRegex = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+
+		function replace(str, replacement, cleanSpaces) {
+			if (!str) return '';
+			var replace =
+				typeof replacement === 'function'
+					? replacement
+					: function () {
+							return replacement;
+					  };
+
+			var toArray = require('lodash.toarray');
+			var words = toArray(str);
+
+			var replaced = words
+				.map(function (word, idx) {
+					var emoji = findByCode(word);
+
+					if (emoji && cleanSpaces && words[idx + 1] === ' ') {
+						words[idx + 1] = '';
+					}
+
+					return emoji ? replace(emoji) : word;
+				})
+				.join('');
+
+			return cleanSpaces
+				? replaced.replace(trimSpaceRegex, '')
+				: replaced;
+		}
+
+		let x: any = replace(
+			message,
+			(a: any) => {
+				let v = EmojiList[`${a.emoji}`];
+				if (a.emoji === v?.native) {
+					return `<img
                         class="emoji"
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
                         draggable="false"
-                        aria-label="${a}"
-                        alt="${a}"
+                        aria-label="${a.emoji}"
+                        alt="${a.emoji}"
                         style='background-image: url(${AppleEmoji}); background-position: ${v?.imagePosition?.[0]}% ${v?.imagePosition?.[1]}%'
                     />`;
-		});
+				}
+				return a.emoji;
+			},
+			false,
+		);
+
 		let lastReplace = x;
 
 		let combineArray = [
 			...mentionedList.userList,
 			...mentionedList.groupList,
 		];
-		for (let i = 0; i < combineArray?.length; i++) {
-			lastReplace = lastReplace.replaceAll(
-				combineArray[i],
-				(v: string) => {
-					if (v?.charAt(0) === '@' || v?.charAt(0) === '#') {
-						return `<span contentEditable="false" class="usernameReplacement" data-plain-text="${v}">${v}</span>`;
-					} else return v;
-				},
-			);
-		}
 
-		setMessage(lastReplace);
-		console.log('lastRepalce ', lastReplace);
+		var result = combineArray.reduce(function (map, obj) {
+			map[obj] = true;
+			return map;
+		}, {});
+
+		let finalMessage = '';
+		lastReplace?.split('&nbsp;')?.map((text: string) => {
+			if (result[text]) {
+				finalMessage += `<span contentEditable="false" class="usernameReplacement" data-plain-text="${text}">${text}</span>&nbsp;`;
+			} else {
+				finalMessage += `${text}&nbsp;`;
+			}
+		});
+
+		setMessage(finalMessage);
 	}, [isTriggered]);
 
 	useEffect(() => {
 		let textarea = document.getElementById('textarea');
 		let filter = [] as any;
 		let lastCharacter = '';
-		let pasteValue = '';
 
 		function returnPosition() {
 			let max = 0;
@@ -203,20 +261,19 @@ export function EmojiPicker() {
 		}
 
 		function changeHandler(e: any) {
-			console.log('consider');
-			if (
-				e.type === 'paste' &&
-				textarea &&
-				(textarea.textContent ||
-					(e.originalEvent || e)?.clipboardData?.getData(
-						'text/plain',
-					))
-			)
-				pasteValue = replaceAt(
-					textarea.textContent,
-					getCaretPosition(textarea),
-					(e.originalEvent || e).clipboardData.getData('text/plain'),
-				);
+			if (e.type === 'paste') {
+				e.preventDefault();
+				// get text representation of clipboard
+				let data =
+					e.clipboardData.getData('text/html') ||
+					e.clipboardData.getData('text/plain');
+                let regex = /<(?!(\/\s*)?(a|b|i|em|s|strong|u|span|img)[>,\s])([^>])*>/g;
+                
+				data = data.replace(regex, '');
+				// insert text manually
+				document.execCommand('insertHTML', false, data);
+			}
+
 			if (e.key === 'Backspace' || e.key === 'Delete') {
 				lastCharacter =
 					(textarea?.textContent || textarea?.innerText)?.substring(
@@ -230,10 +287,8 @@ export function EmojiPicker() {
 				}
 			}
 			setTimeout(() => {
-				let text =
-					pasteValue || textarea?.textContent || textarea?.innerText;
+				let text = textarea?.textContent || textarea?.innerText;
 				let value;
-				pasteValue = '';
 				let sel = window.getSelection();
 				if (sel?.focusNode && sel?.focusOffset) {
 					lastOutNode.current = sel.focusNode;
@@ -270,6 +325,8 @@ export function EmojiPicker() {
 						?.nodeName === 'SPAN' &&
 						window.getSelection()?.focusOffset === 0)
 				) {
+					lastOutNode.current = null;
+					lastOutPosition.current = 0;
 					return;
 				}
 				let isAllow = false;
@@ -401,8 +458,7 @@ export function EmojiPicker() {
 		if (!emoji) return;
 
 		try {
-			let getAppleEmoji = ActivitiesJson.activities[`${emoji}`];
-			console.log('getAppleEmoji', getAppleEmoji.native);
+			let getAppleEmoji = EmojiList[`${emoji}`];
 			html = `<img
                         class="emoji"
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
@@ -525,22 +581,27 @@ export function EmojiPicker() {
 				}
 			}
 			let replace;
+			let final;
 			replace = t?.innerHTML?.replace(/\<img.*?\>/gi, (e: any) => {
 				let wrapper = document.createElement('div');
 				wrapper.innerHTML = e;
 				let div: any = wrapper.firstChild;
 				return div?.getAttribute('aria-label');
 			});
-			replace = replace?.replace(
-				/<span[^>]*>[\s\S]+<\/span>/gi,
-				(e: any) => {
-					let wrapper = document.createElement('div');
-					wrapper.innerHTML = e;
-					let div: any = wrapper.firstChild;
-					return div.textContent;
-				},
-			);
-			setMessage(replace);
+			console.log('textContent ', replace);
+
+			// function replacementFunc(e: any) {
+			// 	let wrapper = document.createElement('div');
+			// 	wrapper.innerHTML = e;
+			// 	let div: any = wrapper.firstChild;
+			// 	return div?.textContent;
+			// }
+
+			final = replace?.replace(/<\/?span[^>]*>/g, '');
+
+			console.log('final ', final);
+
+			setMessage(final);
 			setMentionedList({
 				...mentionedList,
 				userList: x,
@@ -549,8 +610,6 @@ export function EmojiPicker() {
 			t.innerHTML = '';
 		}
 	};
-
-	console.log('message ', message, mentionedList);
 
 	return (
 		<EmojiContext.Provider value={{ emojiHandler }}>

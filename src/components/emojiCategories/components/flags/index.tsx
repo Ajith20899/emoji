@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import AppleEmoji from '../../../../assets/appleEmoji.png';
+import React, { useContext, useEffect, useState } from 'react';
+import EmojiContext from '@components/emojiCategories/context';
 import * as Styles from '../../styles';
 
 export default function Flags({ image }) {
+    const { emojiHandler } = useContext(EmojiContext);
+
 	const [list, setList] = useState({});
 
 	useEffect(() => {
@@ -21,10 +23,8 @@ export default function Flags({ image }) {
 				return (
 					<Styles.EmojiBlock
 						key={index}
-						aria-label={data.unified}
-						onClick={() =>
-							console.log(data.unified, data.imagePosition)
-						}>
+						aria-label={data.native}
+						onClick={() => emojiHandler(data.native)}>
 						<Styles.EmojiChild
 							style={{
 								backgroundImage: `url("${image}")`,

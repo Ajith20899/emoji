@@ -20,6 +20,8 @@ export const EmojiPickerWrapper = styled.div`
 		padding: 0px;
 		margin: 0px;
 		vertical-align: middle;
+		user-select: text;
+		pointer-events: none;
 	}
 	& span.usernameReplacement {
 		color: blue;
@@ -44,7 +46,7 @@ export const Textarea = styled.div`
 	height: 300px;
 	border: 1px solid;
 	padding: 10px;
-	// display: inline-block;
+	word-break: break-word;
 
 	& > span {
 		// display: inline;

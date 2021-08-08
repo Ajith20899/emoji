@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import AppleEmoji from '../../../../assets/appleEmoji.png';
+import React, { useContext, useEffect, useState } from 'react';
+import EmojiContext from '@components/emojiCategories/context';
 import * as Styles from '../../styles';
 
 export default function FoodAndDrink({ image }) {
+    const { emojiHandler } = useContext(EmojiContext);
+
 	const [list, setList] = useState({});
 
 	useEffect(() => {
@@ -22,11 +24,9 @@ export default function FoodAndDrink({ image }) {
 				return (
 					<Styles.EmojiBlock
 						key={index}
-						aria-label={data.unified}
+						aria-label={data.native}
 						onClick={() =>
-							console.log(
-								data.unified,
-								data.imagePosition,
+							emojiHandler(
 								data.native,
 							)
 						}>
