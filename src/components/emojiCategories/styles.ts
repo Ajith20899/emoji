@@ -13,8 +13,15 @@ export const EmojiBlock = styled.span`
 	padding: 6px;
 	border-radius: 20px;
 	display: inline-block;
+	width: 37px;
+	height: 37px;
+	box-sizing: border-box;
+
 	&:hover {
 		background: lightgrey;
+	}
+	& .gifEmojiChild {
+		display: block;
 	}
 `;
 export const EmojiChild = styled.span`
